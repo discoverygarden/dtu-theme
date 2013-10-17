@@ -31,7 +31,7 @@
 			"file": "sass/components/_header.scss",
 			"settings":
 			{
-				"buffer_size": 67,
+				"buffer_size": 481,
 				"line_ending": "Unix"
 			}
 		},
@@ -47,7 +47,7 @@
 			"file": "sass/components/_page.scss",
 			"settings":
 			{
-				"buffer_size": 65,
+				"buffer_size": 412,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,7 +55,7 @@
 			"file": "sass/components/_navigation.scss",
 			"settings":
 			{
-				"buffer_size": 71,
+				"buffer_size": 464,
 				"line_ending": "Unix"
 			}
 		},
@@ -71,7 +71,15 @@
 			"file": "sass/components/_footer.scss",
 			"settings":
 			{
-				"buffer_size": 67,
+				"buffer_size": 186,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/_normalize.scss",
+			"settings":
+			{
+				"buffer_size": 12936,
 				"line_ending": "Unix"
 			}
 		},
@@ -80,6 +88,14 @@
 			"settings":
 			{
 				"buffer_size": 5238,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/page--front.tpl.php",
+			"settings":
+			{
+				"buffer_size": 3234,
 				"line_ending": "Unix"
 			}
 		}
@@ -116,6 +132,7 @@
 	},
 	"file_history":
 	[
+		"/Volumes/The Vag/themes/dtu_theme/templates/page.tpl.php",
 		"/Volumes/The Vag/themes/dtu_theme/sass/components/_misc.scss",
 		"/Volumes/UCONN Vag/all/themes/uconn_theme/js/script.js",
 		"/Volumes/UCONN Vag/all/themes/uconn_theme/uconn_theme.info",
@@ -276,15 +293,15 @@
 					"file": "sass/components/_header.scss",
 					"settings":
 					{
-						"buffer_size": 67,
+						"buffer_size": 481,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								67
+								396,
+								396
 							]
 						],
 						"settings":
@@ -328,15 +345,15 @@
 					"file": "sass/components/_page.scss",
 					"settings":
 					{
-						"buffer_size": 65,
+						"buffer_size": 412,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								32,
-								32
+								313,
+								313
 							]
 						],
 						"settings":
@@ -354,15 +371,15 @@
 					"file": "sass/components/_navigation.scss",
 					"settings":
 					{
-						"buffer_size": 71,
+						"buffer_size": 464,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								38,
-								38
+								109,
+								109
 							]
 						],
 						"settings":
@@ -406,15 +423,15 @@
 					"file": "sass/components/_footer.scss",
 					"settings":
 					{
-						"buffer_size": 67,
+						"buffer_size": 186,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								34,
-								34
+								158,
+								158
 							]
 						],
 						"settings":
@@ -429,6 +446,34 @@
 				},
 				{
 					"buffer": 6,
+					"file": "sass/_normalize.scss",
+					"settings":
+					{
+						"buffer_size": 12936,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1511.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "sass/layouts/_responsive.scss",
 					"settings":
 					{
@@ -446,6 +491,34 @@
 						"settings":
 						{
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "templates/page--front.tpl.php",
+					"settings":
+					{
+						"buffer_size": 3234,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								221,
+								221
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},

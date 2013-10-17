@@ -2,3 +2,36 @@
 // Header Styling
 ////////////////////////
 
+.front .header {
+
+}
+
+.header {
+	
+}
+
+#head-back {
+	background: url('../images/sample/School-Lemba.jpg') no-repeat;
+	background-size: 100%;
+	height: 522px; 
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+#name-and-slogan {
+	background: #009100;
+	padding: 25px;
+	
+	#site-name {
+		color: #fff;
+		font-size: 225%;
+		font-style: italic;
+	}
+	#site-slogan {
+		color: #CEE3CE;
+		font-size: 200%;
+	}
+}

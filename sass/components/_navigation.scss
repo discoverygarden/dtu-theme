@@ -1,3 +1,30 @@
 ////////////////////////
 // Navigation Styling
 ////////////////////////
+
+#navigation {
+	right: 0;
+	padding: 0;
+	#main-menu {
+		float: right;
+		background: #000;
+		height: 2.2em;
+		padding: 8px 10px 0;
+		border-bottom: 1px solid #fff;
+
+		ul {
+			font-size: 80%;
+			letter-spacing: 0.3pt;
+			li {
+				border-right: 1px solid #fff;
+				margin-right: 8px;
+				a:link, a:visited {
+					color: #fff;
+				}
+				a:hover, a.active {
+					color: #ffff00;
+				}
+			}
+		}
+	}
+}

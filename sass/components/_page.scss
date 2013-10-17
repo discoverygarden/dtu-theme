@@ -1,3 +1,37 @@
 ////////////////////////
 // Page Styling
 ////////////////////////
+
+body {
+        background: #fff;
+}
+
+h1.page__title {
+}
+
+h2 {
+}
+
+a:link, a:visited {
+        color: #777;
+        text-decoration: none;
+}
+a:hover, a:active {
+        color: #121738;
+}
+
+#main {
+	background: #F3F3F3;
+	border-bottom: 1px solid #ccc;
+	margin-top: 18em;
+	padding: 0;
+}
+
+#content {
+	clear: left;
+}
+
+ul.pager {
+        li {
+        }
+}
