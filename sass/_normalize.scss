@@ -96,6 +96,11 @@ audio:not([controls]) {
 }
 */
 
+@import url(http://fonts.googleapis.com/css?family=Ropa+Sans:400,400italic);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Ropa+Sans:400,400italic);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
 /**
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
@@ -186,11 +191,13 @@ h1 {
   /* Set 1 unit of vertical rhythm on the top and bottom margins. */
   @include leader(1, $h1-font-size);
   @include trailer(1, $h1-font-size);
+  font-family: 'Ropa Sans';
 }
 h2 {
   @include adjust-font-size-to( $h2-font-size );
   @include leader(1, $h2-font-size);
   @include trailer(1, $h2-font-size);
+  font-family: 'Ropa Sans';
 }
 h3 {
   @include adjust-font-size-to( $h3-font-size );

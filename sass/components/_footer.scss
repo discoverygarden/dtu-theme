@@ -9,8 +9,14 @@
 #block-menu-menu-footer-men {
 	border-bottom: 1px solid #ccc;
 	ul {
+		font-size: 80%;
 		li {
 			display: inline;
+			padding: 0.8em 1em;
+			border-right: 1px solid #ccc;
+		}
+		li.last {
+			border: 0;
 		}
 	}
 }

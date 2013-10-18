@@ -1,3 +1,15 @@
 ////////////////////////
 // Views Styling
 ////////////////////////
+
+#block-views-image-blocks-block {
+	h2 {
+		font-size: 65%;
+		text-transform: uppercase;
+		color: #5A5A5A;
+		margin-bottom: 1.5em;
+	}
+	img {
+		padding: 0 5% 1.5em 0;
+	}
+}

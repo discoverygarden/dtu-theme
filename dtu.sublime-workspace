@@ -31,7 +31,7 @@
 			"file": "sass/components/_header.scss",
 			"settings":
 			{
-				"buffer_size": 481,
+				"buffer_size": 525,
 				"line_ending": "Unix"
 			}
 		},
@@ -39,7 +39,7 @@
 			"file": "sass/components/_islandora.scss",
 			"settings":
 			{
-				"buffer_size": 70,
+				"buffer_size": 254,
 				"line_ending": "Unix"
 			}
 		},
@@ -47,7 +47,7 @@
 			"file": "sass/components/_page.scss",
 			"settings":
 			{
-				"buffer_size": 412,
+				"buffer_size": 426,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,7 +55,7 @@
 			"file": "sass/components/_navigation.scss",
 			"settings":
 			{
-				"buffer_size": 464,
+				"buffer_size": 622,
 				"line_ending": "Unix"
 			}
 		},
@@ -63,7 +63,7 @@
 			"file": "sass/components/_views.scss",
 			"settings":
 			{
-				"buffer_size": 66,
+				"buffer_size": 236,
 				"line_ending": "Unix"
 			}
 		},
@@ -71,7 +71,7 @@
 			"file": "sass/components/_footer.scss",
 			"settings":
 			{
-				"buffer_size": 186,
+				"buffer_size": 290,
 				"line_ending": "Unix"
 			}
 		},
@@ -79,7 +79,7 @@
 			"file": "sass/_normalize.scss",
 			"settings":
 			{
-				"buffer_size": 12936,
+				"buffer_size": 13285,
 				"line_ending": "Unix"
 			}
 		},
@@ -88,6 +88,14 @@
 			"settings":
 			{
 				"buffer_size": 5238,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/page.tpl.php",
+			"settings":
+			{
+				"buffer_size": 3867,
 				"line_ending": "Unix"
 			}
 		},
@@ -132,6 +140,7 @@
 	},
 	"file_history":
 	[
+		"/Volumes/The Vag/themes/dtu_theme/template.php",
 		"/Volumes/The Vag/themes/dtu_theme/templates/page.tpl.php",
 		"/Volumes/The Vag/themes/dtu_theme/sass/components/_misc.scss",
 		"/Volumes/UCONN Vag/all/themes/uconn_theme/js/script.js",
@@ -285,7 +294,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -293,20 +302,21 @@
 					"file": "sass/components/_header.scss",
 					"settings":
 					{
-						"buffer_size": 481,
+						"buffer_size": 525,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								396,
-								396
+								393,
+								393
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -319,15 +329,15 @@
 					"file": "sass/components/_islandora.scss",
 					"settings":
 					{
-						"buffer_size": 70,
+						"buffer_size": 254,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								37,
-								37
+								175,
+								175
 							]
 						],
 						"settings":
@@ -345,20 +355,22 @@
 					"file": "sass/components/_page.scss",
 					"settings":
 					{
-						"buffer_size": 412,
+						"buffer_size": 426,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								313,
-								313
+								280,
+								280
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 8,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -371,23 +383,24 @@
 					"file": "sass/components/_navigation.scss",
 					"settings":
 					{
-						"buffer_size": 464,
+						"buffer_size": 622,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								109,
-								109
+								610,
+								610
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 126.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -397,15 +410,15 @@
 					"file": "sass/components/_views.scss",
 					"settings":
 					{
-						"buffer_size": 66,
+						"buffer_size": 236,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								33,
-								33
+								196,
+								196
 							]
 						],
 						"settings":
@@ -423,20 +436,21 @@
 					"file": "sass/components/_footer.scss",
 					"settings":
 					{
-						"buffer_size": 186,
+						"buffer_size": 290,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								158,
-								158
+								281,
+								281
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -449,15 +463,15 @@
 					"file": "sass/_normalize.scss",
 					"settings":
 					{
-						"buffer_size": 12936,
+						"buffer_size": 13285,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								5507,
+								5507
 							]
 						],
 						"settings":
@@ -467,7 +481,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1511.0,
+						"translation.y": 3299.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -502,6 +516,34 @@
 				},
 				{
 					"buffer": 8,
+					"file": "templates/page.tpl.php",
+					"settings":
+					{
+						"buffer_size": 3867,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3183,
+								3183
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 2.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
 					"file": "templates/page--front.tpl.php",
 					"settings":
 					{
