@@ -3,29 +3,32 @@
 ////////////////////////
 
 body {
-        background: #fff;
+	background: #fff;
 }
 
 h1.page__title {
 }
 
 h2 {
+    font-weight: 400;
+    line-height: 1.3em;
+    margin: 0 0 6px;
 }
 
 a:link, a:visited {
-        color: #777;
-        text-decoration: none;
+    color: #777;
+    text-decoration: none;
 }
 a:hover, a:active {
-        color: #121738;
+    color: #121738;
 }
 
-#main {
-	background: #F3F3F3;
+.front #main {
+    background: #F3F3F3;
 	border-bottom: 1px solid #ccc;
 	margin-top: 18em;
 	padding: 0;
-        margin-bottom: 5em;
+    margin-bottom: 5em;
 }
 
 #content {
@@ -34,4 +37,68 @@ a:hover, a:active {
 ul.pager {
         li {
         }
+}
+
+// Frontpage Styling //
+
+.find-map {
+    background-color: transparent;
+    float: left;
+    margin: 10px 0 75px 0px;
+    padding: 0;
+    width: 260px;
+
+    a {
+        background-color: #FFFFFF;
+        border: 5px solid #DADADA;
+        display: inline-block;
+        margin-top: 10px;
+        min-height: 51px;
+        min-width: 80%;
+        padding: 21px 20px 18px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transition: all 0.2s ease 0s;
+        vertical-align: bottom;
+        span.icon {
+            background: url("../images/icons/sprite.png") no-repeat scroll -136px -1px transparent;
+            display: inline-block;
+            height: 47px;
+            opacity: 0.75;
+            position: relative;
+            transition: all 0.2s ease 0s;
+            width: 47px;
+        }
+        em {
+            color: #717171;
+            display: inline-block;
+            font-family: 'Ropa Sans';
+            font-size: 19px;
+            font-style: italic;
+            margin: 14px 0 0 10px;
+            vertical-align: top;
+        }
+    }
+    a:hover {
+        border-color: #787878;
+    }
+    h2 {
+        font-style: italic;
+    }
+    p {
+        margin: 0;
+    }
+}
+
+//Search Pages //
+
+#page-title {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 31px;
+    margin: 0;
+    position: absolute;
+    top: -75px;
+    left: 480px;
 }

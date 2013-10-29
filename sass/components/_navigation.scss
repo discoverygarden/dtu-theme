@@ -29,17 +29,71 @@
 	}
 }
 
-#block-menu-menu-browse-by-category {
-	clear: left;
+.browse-menu {
 	background: #fff;
-	width: 43%;
-	h2 {
-
-	}
-	ul {
-		li {
-			display: inline;
-			max-width: 100px;
+	float: left;
+	width: 41%;
+	padding: 20px 30px;
+	border-bottom: 3px solid #009100;
+	.browsecats {
+		margin: 20px 0 0;
+		ul {
+			list-style: none outside none;
+			margin: 0;
+			overflow: hidden;
+			padding: 0;
+			li {
+				float: left;
+				a {
+					background-color: #FFFFFF;
+					color: #818181;
+					display: block;
+					font-family: 'Ropa Sans',Arial;
+					font-size: 14px;
+					font-style: italic;
+					height: 80px;
+					line-height: 1em;
+					margin-bottom: 15px;
+					position: relative;
+					text-align: center;
+					text-decoration: none;
+					width: 79px;
+					span.icon {
+						background: url("../images/icons/sprite.png") no-repeat scroll right bottom transparent;
+						display: block;
+						height: 40px;
+						margin: 0 auto 10px;
+						opacity: 0.75;
+						position: relative;
+						transition: all 0.2s ease 0s;
+						width: 41px;
+					}
+				}
+				a:hover {
+					text-decoration: underline;
+				}
+				a:hover span {
+					opacity: 1;
+				}
+			}
+			li.buildings span.icon {
+				background-position: 0 0;
+			}
+			li.maps span.icon {
+				background-position: 0 -42px;
+			}
+			li.documents span.icon {
+				background-position: 0 -82px;
+			}
+			li.images span.icon {
+				background-position: 0 -123px;
+			}
+			li.persons span.icon {
+				background-position: 0 -164px;
+			}
+			li.organisations span.icon {
+				background-position: 0 -205px;
+			}
 		}
 	}
 }

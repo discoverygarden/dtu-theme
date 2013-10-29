@@ -6,17 +6,68 @@
 #block-islandora-solr-simple {
 	float: left;
 	background: #fff;
-	width: 43%;
+	width: 41%;
+	padding: 20px 30px;
+	margin: 0;
+	height: 140px;
 	h2 {
-
+		margin-bottom: 10px;
 	}
 
 	.form-text {
+		width: 85%;
+		height: 40px;
+		border: 1px solid #000;
+		border-radius: 3px 0 0 3px;
 	}
 	.form-submit {
-
+		background-color: #050505;
+		border: medium none;
+		border-radius: 0 2px 2px 0;
+		color: #000000;
+		cursor: pointer;
+		font-size: 0;
+		height: 40px;
+		margin: 0 0 0 -3px;
+		transition: background-color 0.2s ease 0s;
+		vertical-align: top;
+		width: 42px;
 	}
+	.form-submit:after {
+		background: url("../images/icons/sprite.png") no-repeat scroll -187px -1px transparent;
+		content: " ";
+		height: 25px;
+		left: 11px;
+		margin: 0;
+		position: absolute;
+		top: 9px;
+		width: 21px;
+		z-index: 0;
+	}
+	.form-submit:hover {
+		background-color: #383838;
+	}
+
 	.adv_search {
+		font-size: 85%;
 		display: block;
+		float: right;
+		position: relative;
+		right: 55px;
+		margin-top: 10px;
+		text-decoration: underline;
 	}
 }
+
+#block-block-2 {
+	.adv_search {
+		display: none;
+	}
+}
+
+// Sidebar - Facets - Sort - Query //
+
+.sidebar .block-islandora-solr {
+
+}
+

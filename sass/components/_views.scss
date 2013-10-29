@@ -2,6 +2,27 @@
 // Views Styling
 ////////////////////////
 
+.view-frontpage {
+	float: left;
+	max-width: 28%;
+	min-width: 350px;
+	padding: 30px;
+
+	h2 {
+		font-style: italic;
+		line-height: 1.1em;
+		font-size: 150%;
+		a {
+			color: #009100;
+		}
+	}
+	p {
+		color: #777;
+		font-family: 'Ropa Sans';
+		font-size: 95%;
+	}
+}
+
 #block-views-image-blocks-block {
 	h2 {
 		font-size: 65%;
