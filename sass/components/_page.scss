@@ -31,6 +31,10 @@ a:hover, a:active {
     margin-bottom: 5em;
 }
 
+#main {
+    background: #F3F3F3;   
+}
+
 #content {
 }
 
@@ -96,9 +100,19 @@ ul.pager {
 #page-title {
     font-size: 30px;
     font-weight: 400;
+    left: 265px;
     line-height: 31px;
     margin: 0;
-    position: absolute;
-    top: -75px;
-    left: 480px;
+    position: relative;
+    top: -130px;
+    width: auto;
+    float: left;
+}
+
+.region-sidebar-first {
+    margin-top: 10%;
+}
+
+.simple-search {
+   float: left; 
 }

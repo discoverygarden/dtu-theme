@@ -65,9 +65,188 @@
 	}
 }
 
+.simple-search {
+	float: left;
+	width: 41%;
+	padding: 20px 30px;
+	margin: 0;
+	.form-text {
+		width: 85%;
+		height: 40px;
+		border: 1px solid #000;
+		border-radius: 3px 0 0 3px;
+	}
+	.form-submit {
+		background-color: #050505;
+		border: medium none;
+		border-radius: 0 2px 2px 0;
+		color: #000000;
+		cursor: pointer;
+		font-size: 0;
+		height: 40px;
+		margin: 0 0 0 -3px;
+		transition: background-color 0.2s ease 0s;
+		vertical-align: top;
+		width: 42px;
+	}
+	.form-submit:after {
+		background: url("../images/icons/sprite.png") no-repeat scroll -187px -1px transparent;
+		content: " ";
+		height: 25px;
+		left: 11px;
+		margin: 0;
+		position: absolute;
+		top: 9px;
+		width: 21px;
+		z-index: 0;
+	}
+	.form-submit:hover {
+		background-color: #383838;
+	}
+}
+
 // Sidebar - Facets - Sort - Query //
 
 .sidebar .block-islandora-solr {
 
 }
 
+// User Login Page //
+
+#user-login-container {
+	float: left;
+	background: #009100;
+	color: #fff;
+	max-width: 33%;
+	padding: 30px 25px;
+	min-height: 350px;
+	h2 {
+		font-size: 190%;
+	}
+	a {
+		color: #fff;
+		font-size: 80%;
+		letter-spacing: 0.3pt;
+		text-decoration: underline;
+		display: block;
+		margin-top: 20px;
+	}
+
+	label {
+		font-weight: normal;
+		font-size: 80%;
+		letter-spacing: 0.3pt;
+	}
+	.description {
+		display: none;
+	}
+	.form-submit {
+		border: medium none;
+		border-radius: 2px 2px 2px 2px;
+		display: inline-block;
+		font-size: 14px;
+		font-weight: bold;
+		height: 28px;
+		line-height: 25px;
+		padding: 5px 32px;
+		position: relative;
+		text-align: left;
+		text-decoration: none;
+		transition: all 0.4s ease 0s;
+		width: auto;
+		z-index: 1;
+		height: 41px;
+
+		background: none repeat scroll 0 0 #FFFFFF;
+		color: #009100;
+	}
+	.form-text {
+		background-color: #FAFAFA;
+		border-color: #BDBDBD #BDBDBD #C9C9C9;
+		border-style: solid;
+		border-width: 1px;
+		color: #000000;
+		font-family: Arial,Helvetica,sans-serif;
+		font-size: 13px;
+		font-style: normal;
+		font-weight: 400;
+		height: 40px;
+		line-height: 22px;
+		padding: 4px;
+		width: 300px;
+
+		border-radius: 3px 3px 3px 3px;
+		margin-bottom: 10px;
+		padding: 10px !important;
+		width: 90%;
+	}
+}
+
+#user-register-form-container {
+	@extend #user-login-container;
+	background: #fff;
+	color: #000;
+
+	a {
+		color: #009100;
+	}
+	.form-submit {
+		background: linear-gradient(to bottom, #009900 0%, #009100 22%) repeat scroll 0 0 transparent;
+		color: #fff;
+	}
+}
+
+#islandora-solr-top {
+  clear: left;
+}
+
+// Solr Display //
+#block-islandora-solr-display-switch {
+  float: right;
+  position: relative;
+  top: -58px;
+  left: -20px;
+  opacity: 0.5;
+}
+
+.block-islandora-solr ul {
+  margin: 0.5em 0 0;
+  padding: 0 !important;
+  li {
+          border-bottom: 1px solid #EEF0ED;
+          list-style: none outside none;        
+          padding: 3px 0;
+  }
+  li.last {
+          border: 0;
+  }
+}
+
+#block-islandora-solr-display-switch ul li {
+  float: left;
+}
+
+.islandora-solr-display a.display-default, .islandora-solr-display a.display-grid, .islandora-solr-display a.display-table,
+.islandora-view-grid, .islandora-view-list {
+  background: url("../images/icons/sprite.png") no-repeat scroll left top transparent;
+  display: inline-block;
+  height: 16px;
+  outline: medium none;
+  text-indent: -9999px;
+  width: 16px;
+}
+
+.islandora-solr-display a.display-grid, .islandora-view-grid {
+  background-position: -240px -16px;
+}
+
+.islandora-solr-display a.display-table, .islandora-view-list {
+  background-position: -240px -32px;
+}
+
+.islandora-basic-collection-display-switch {
+        opacity: 0.5;
+        li {
+                padding: 0;
+        }        
+}

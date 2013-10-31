@@ -40,4 +40,17 @@
 		line-height: 0.85em;
 		letter-spacing: 0.6pt;
 	}
+
+}
+.not-front #name-and-slogan {
+	padding: 25px 0 6px 50px;
+	max-width: 370px;
+	span.border__name-and-slogan {
+		background: none repeat scroll 0 0 #FFFFFF;
+		display: block;
+		height: 5px;
+		margin: 25px 0 0 -50px;
+		padding-right: 34px;
+		width: 386px;
+	}	
 }
