@@ -66,13 +66,16 @@
 }
 
 .simple-search {
-	float: left;
-	width: 41%;
+	width: 50%;
 	padding: 20px 30px;
 	margin: 0;
+	position: absolute;
+	left: -25px;
+	float: left;
+
 	.form-text {
 		width: 85%;
-		height: 40px;
+		height: 50px;
 		border: 1px solid #000;
 		border-radius: 3px 0 0 3px;
 	}
@@ -83,11 +86,11 @@
 		color: #000000;
 		cursor: pointer;
 		font-size: 0;
-		height: 40px;
+		height: 50px;
 		margin: 0 0 0 -3px;
 		transition: background-color 0.2s ease 0s;
 		vertical-align: top;
-		width: 42px;
+		width: 70px;
 	}
 	.form-submit:after {
 		background: url("../images/icons/sprite.png") no-repeat scroll -187px -1px transparent;
@@ -197,16 +200,42 @@
 }
 
 #islandora-solr-top {
-  clear: left;
+  clear: both;
+  position: relative;
+  top: -42px;
+  border-bottom: 2px solid #009100;
+  padding-bottom: 10px;
+  #islandora-solr-result-count {
+  	font-size: 75%;
+
+  }
 }
 
 // Solr Display //
 #block-islandora-solr-display-switch {
   float: right;
+  clear: left;
   position: relative;
-  top: -58px;
+  top: -50px;
   left: -20px;
-  opacity: 0.5;
+  opacity: 1;
+
+  h2 {
+  	font-size: 80%;
+  	color: #777;
+  	display: inline;
+  }
+  ul {
+  	display: inline;
+  	float: left;
+  }
+  div {
+  	float: right;
+  	display: inline;
+  }
+  div>after {
+
+  }
 }
 
 .block-islandora-solr ul {
@@ -224,6 +253,7 @@
 
 #block-islandora-solr-display-switch ul li {
   float: left;
+  margin: 3px;
 }
 
 .islandora-solr-display a.display-default, .islandora-solr-display a.display-grid, .islandora-solr-display a.display-table,

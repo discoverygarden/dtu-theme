@@ -32,7 +32,7 @@ a:hover, a:active {
 }
 
 #main {
-    background: #F3F3F3;   
+    background: #fff;
 }
 
 #content {
@@ -45,10 +45,15 @@ ul.pager {
 
 // Frontpage Styling //
 
+.not-front .find-map {
+    position: relative;
+    left: 250px;
+}
+
 .find-map {
     background-color: transparent;
     float: left;
-    margin: 10px 0 75px 0px;
+    margin: -20px 0 75px 0px;
     padding: 0;
     width: 260px;
 

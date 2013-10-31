@@ -55,7 +55,15 @@
 			"file": "sass/components/_islandora.scss",
 			"settings":
 			{
-				"buffer_size": 4671,
+				"buffer_size": 5070,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/components/_page.scss",
+			"settings":
+			{
+				"buffer_size": 2109,
 				"line_ending": "Unix"
 			}
 		},
@@ -64,14 +72,6 @@
 			"settings":
 			{
 				"buffer_size": 1863,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/components/_page.scss",
-			"settings":
-			{
-				"buffer_size": 2047,
 				"line_ending": "Unix"
 			}
 		},
@@ -220,7 +220,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 			""
@@ -231,6 +231,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".simple",
+			"find-map",
+			".simple",
+			"simple sear",
+			"top",
 			"#islandora-solr-top",
 			"map",
 			"450px",
@@ -350,8 +355,8 @@
 						"selection":
 						[
 							[
-								942,
-								942
+								332,
+								332
 							]
 						],
 						"settings":
@@ -396,15 +401,15 @@
 					"file": "sass/components/_islandora.scss",
 					"settings":
 					{
-						"buffer_size": 4671,
+						"buffer_size": 5070,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4537,
-								4537
+								1797,
+								1797
 							]
 						],
 						"settings":
@@ -413,13 +418,41 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1374.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
+					"file": "sass/components/_page.scss",
+					"settings":
+					{
+						"buffer_size": 2109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								604,
+								604
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 682.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "sass/components/_navigation.scss",
 					"settings":
 					{
@@ -441,34 +474,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "sass/components/_page.scss",
-					"settings":
-					{
-						"buffer_size": 2047,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								463,
-								463
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 137.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
