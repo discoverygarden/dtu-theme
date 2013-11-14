@@ -53,12 +53,18 @@
 
 	.adv_search {
 		font-size: 85%;
+		font-style: italic;
+		font-family: 'Ropa Sans',Arial;
 		display: block;
 		float: right;
 		position: relative;
 		right: 55px;
 		margin-top: 10px;
 		text-decoration: underline;
+		color: #4D4D4D;
+	}
+	.adv_search:hover {
+		color: #00A600;
 	}
 }
 
@@ -71,7 +77,7 @@
 .simple-search {
 	width: 50%;
 	padding: 20px 30px;
-	margin: 0;
+	margin: 25px 0 0;
 	position: absolute;
 	left: -25px;
 	float: left;
@@ -328,8 +334,33 @@
 		float: left;
 		clear: none;
 		margin-left: 2em;
+		fieldset {
+			border: 0 none;
+		}
+		.fieldset-wrapper {
+				font-family: 'Ropa Sans',Arial;
+				font-size: 15px;
+			dt {
+				border-top: 1px dotted #707070;
+				color: #6F6F6F;
+				font-weight: 400;
+				text-align: left;
+				border-spacing: 0;
+				padding: 6px 0 7px;
+				text-align: left;
+				vertical-align: top;
+			}
+			dd {
+				border-top: 1px dotted #707070;
+				color: #222;
+			}
+			dd.first, dt.first {
+				border: 0 none;
+			}
+		}
 	}
 }
 fieldset.collapsible {
 	border: none;	
 }
+

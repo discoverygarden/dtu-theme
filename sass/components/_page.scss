@@ -28,11 +28,11 @@ a:hover, a:active {
 	border-bottom: 1px solid #ccc;
 	margin-top: 18em;
 	padding: 0;
-    margin-bottom: 5em;
+    margin-bottom: 5px;
 }
 
 #main {
-    background: #fff;
+    background: #F3F3F3;
 }
 
 #content {
@@ -53,7 +53,7 @@ ul.pager {
 .find-map {
     background-color: transparent;
     float: left;
-    margin: -20px 0 17px 0px;
+    margin: 10px 0 17px 0px;
     padding: 0;
     width: 260px;
 
@@ -120,7 +120,7 @@ ul.pager {
 }
 
 .region-sidebar-first {
-    margin-top: 9.45em;
+    margin-top: 11.35em;
 }
 
 .simple-search {
@@ -206,3 +206,23 @@ dd.solr-grid-caption {
         }
     }
 }
+
+.node-readmore {
+    color: #009100 !important;
+    font-style: italic;
+    text-decoration: none;
+    font-family: 'Ropa Sans',Arial;
+    :hover {
+        color: #00AB00 !important;
+    }
+    :visited {
+        color: #009100 !important;
+    }
+    :after {
+        content: "»"; 
+        margin-left: 5px;
+        margin-top: 5px;
+        font-size: 120%;
+    }
+}
+
