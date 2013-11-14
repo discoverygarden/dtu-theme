@@ -28,13 +28,16 @@
 		cursor: pointer;
 		font-size: 0;
 		height: 40px;
-		margin: 0 0 0 -3px;
+		margin: 0 0 0 -6px;
 		transition: background-color 0.2s ease 0s;
 		vertical-align: top;
-		width: 42px;
+		width: 36px;
+		position: relative;
+		background-image: url("../images/icons/sprite.png");
+		background-position: -181px 6px; 
 	}
+
 	.form-submit:after {
-		background: url("../images/icons/sprite.png") no-repeat scroll -187px -1px transparent;
 		content: " ";
 		height: 25px;
 		left: 11px;
@@ -91,6 +94,7 @@
 		transition: background-color 0.2s ease 0s;
 		vertical-align: top;
 		width: 70px;
+		position: relative;
 	}
 	.form-submit:after {
 		background: url("../images/icons/sprite.png") no-repeat scroll -187px -1px transparent;
@@ -205,6 +209,7 @@
   top: -42px;
   border-bottom: 2px solid #009100;
   padding-bottom: 10px;
+  z-index: 5;
   #islandora-solr-result-count {
   	font-size: 75%;
 
@@ -216,9 +221,10 @@
   float: right;
   clear: left;
   position: relative;
-  top: -50px;
+  top: 17px;
   left: -20px;
   opacity: 1;
+  z-index: 15;
 
   h2 {
   	font-size: 80%;
@@ -232,9 +238,6 @@
   div {
   	float: right;
   	display: inline;
-  }
-  div>after {
-
   }
 }
 
@@ -279,4 +282,54 @@
         li {
                 padding: 0;
         }        
+}
+
+.islandora-basic-collection {
+	width: auto;
+}
+
+// Delfdora Over Rides //
+
+#filters h2 {
+	font-weight: normal;
+	font-size: 125%;
+	letter-spacing: 0.5pt;
+}
+
+#block-islandora-solr-sort  {
+	h2 {
+		font-size: 125%;
+		text-transform: uppercase;
+		letter-spacing: 0.5pt;
+	}
+	ul.islandora-solr-sort {
+		border-top: 2px solid #009100;
+		list-style: none outside none;
+		margin: 0;
+		padding: 10px 0 0;
+		li {
+			font-size: 85%;
+		}
+	}
+
+}
+
+// Islandora Object Pages //
+
+.islandora-basic-image-object {
+	.islandora-basic-image-content-wrapper {
+		float: left;
+		.islandora-basic-image-content {
+			width: auto !important;
+		}
+	}
+	.islandora-basic-image-metadata {
+		width: 33%;
+		float: left;
+		clear: none;
+		margin-left: 2em;
+	}
+}
+fieldset.collapsible {
+	border: none;	
 }

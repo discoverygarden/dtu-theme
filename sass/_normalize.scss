@@ -141,13 +141,17 @@ body {
  * http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states
  */
 a:link {
+  color: #009100;
 }
 a:visited {
+  color: #009100;
 }
 a:hover,
 a:focus {
+  color: #00A600;
 }
-a:active {
+a:active {  
+  color: #00A600;
 }
 
 /* Address `outline` inconsistency between Chrome and other browsers. */

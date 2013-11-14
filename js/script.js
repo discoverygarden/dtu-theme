@@ -17,7 +17,50 @@
 Drupal.behaviors.my_custom_behavior = {
   attach: function(context, settings) {
 
-    // Place your code here.
+    // init mainnavigation
+    $("body.mobile div#mainnavigation ul").hide();
+    $("body div#langnavigation ul").hide();
+
+    (function () {
+        var $current = null,
+            show,
+            hide;
+
+        getMenu = function ($trigger) {
+            return $trigger.next();
+        };
+
+        show = function ($trigger, $menu) {
+            $menu.slideDown(400);
+            $trigger.addClass('open');
+        };
+
+        hide = function ($trigger, $menu) {
+            $menu.slideUp(400);
+            $trigger.removeClass('open');
+        };
+
+        $('span.openclose').click(
+            function (event) {
+                event.preventDefault();
+
+                var $trigger = $(this),
+                    $menu = getMenu($trigger);
+
+                if ($current !== null) {
+                    hide($current, getMenu($current));
+                }
+
+                if ($menu.is(':hidden')) {
+                    show($trigger, $menu);
+                    $current = $trigger;
+                } else {
+                    hide($trigger, $menu);
+                    $current = null;
+                }
+            }
+        );
+    }());
 
   }
 };

@@ -47,13 +47,13 @@ ul.pager {
 
 .not-front .find-map {
     position: relative;
-    left: 250px;
+    left: 43.5%;
 }
 
 .find-map {
     background-color: transparent;
     float: left;
-    margin: -20px 0 75px 0px;
+    margin: -20px 0 17px 0px;
     padding: 0;
     width: 260px;
 
@@ -92,12 +92,13 @@ ul.pager {
     a:hover {
         border-color: #787878;
     }
-    h2 {
-        font-style: italic;
-    }
     p {
         margin: 0;
     }
+}
+
+.front h2 {
+    font-style: italic;
 }
 
 //Search Pages //
@@ -105,19 +106,103 @@ ul.pager {
 #page-title {
     font-size: 30px;
     font-weight: 400;
-    left: 265px;
     line-height: 31px;
+    left: 470px;
     margin: 0;
     position: relative;
     top: -130px;
-    width: auto;
-    float: left;
+    width: 55%;
+}
+
+.one-sidebar #page-title {
+    @extend #page-title;
+    left: 230px;
 }
 
 .region-sidebar-first {
-    margin-top: 10%;
+    margin-top: 9.45em;
 }
 
 .simple-search {
    float: left; 
+}
+
+// Search grid view //
+
+dl.solr-grid-field {
+  margin: 0.5em 1%;
+}
+
+dd.solr-grid-caption {
+    a:link, a:visited {
+        color: #009100;
+        font-size: 90%;
+        text-decoration: underline;
+    }
+    a:hover, a.active {
+        color: #00A600;
+    }
+}
+
+// Record detail pages //
+
+.shareoptions {
+    clear: both;
+    float: left;
+    margin: 40px 0;
+    width: 100%;
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        li {
+            float: left;
+            a {
+                background-color: #FFFFFF;
+                border-bottom: 1px solid #CDCDCD;
+                border-right: 1px solid #CDCDCD;
+                border-top: 1px solid #CDCDCD;
+                color: #818181;
+                display: block;
+                font-size: 10px;
+                height: 53px;
+                position: relative;
+                text-align: center;
+                text-decoration: none;
+                width: 72px;
+                span {
+                    background: url("../images/icons/sprite.png") no-repeat scroll right bottom transparent;
+                    display: block;
+                    height: 21px;
+                    margin: 10px auto 0;
+                    opacity: 0.75;
+                    position: relative;
+                    transition: all 0.2s ease 0s;
+                    width: 28px;
+                }
+            }
+        }
+        li.share span {
+            background-position: -80px 0; 
+        }
+        li.save span {
+            background-position: -80px -22px; 
+        }
+        li.export span {
+            background-position: -80px -44px; 
+        }
+        li.cite span {
+            background-position: -80px -66px; 
+        }
+        li:first-child a {
+            border-left: 1px solid #CDCDCD;
+        }
+        li a:hover {
+           text-decoration: underline; 
+           span {
+            opacity: 1;
+           }
+        }
+    }
 }

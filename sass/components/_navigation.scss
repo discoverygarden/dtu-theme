@@ -9,9 +9,8 @@
 		float: right;
 		background: #000;
 		height: 2.2em;
-		padding: 8px 10px 0;
+		padding: 8px 40px 0 10px;
 		border-bottom: 1px solid #fff;
-
 		ul {
 			font-size: 80%;
 			letter-spacing: 0.3pt;
@@ -28,6 +27,52 @@
 		}
 	}
 }
+
+#langnavigation {
+	position: relative;
+	margin: 0;
+	span.openclose {
+		background: url("../images/icons/language-menu.png") no-repeat scroll 0 2px #000000;
+		right: 10px;
+		top: 10px;
+		cursor: pointer;
+		display: block;
+		height: 23px;
+		position: absolute;
+		width: 23px;
+		z-index: 10;
+	}
+	ul {
+		border-bottom: medium none;
+		position: absolute;
+		right: 0;
+		top: 20px;
+		width: 50px;
+		background: #000;
+		li {
+			a {
+				line-height: 16px;
+				padding: 5px 0;
+				img {
+					margin: 4px 0 0;
+				}
+				span {
+					display: inline-block;
+					font-size: 12px;
+					font-style: normal;
+					font-weight: 400;
+					margin: 0 0 0 5px;
+				}
+				em {
+					display: none;
+					font-style: normal;
+					margin: 0 0 0 5px;
+				}
+			}
+		}
+	}
+}
+
 
 .browse-menu {
 	background: #fff;
