@@ -36,20 +36,18 @@
 	"buffers":
 	[
 		{
-			"contents": "Searching 9 files for \".adv_search\"\n\n/Volumes/The Vag/themes/dtu_theme/sass/components/_islandora.scss:\n   52  	}\n   53  \n   54: 	.adv_search {\n   55  		font-size: 85%;\n   56  		display: block;\n   ..\n   64  \n   65  #block-block-2 {\n   66: 	.adv_search {\n   67  		display: none;\n   68  	}\n\n2 matches in 1 file\n\n\nSearching 10 files for \".find-map\"\n\n/Volumes/The Vag/themes/dtu_theme/sass/components/_page.scss:\n   46  // Frontpage Styling //\n   47  \n   48: .not-front .find-map {\n   49      position: relative;\n   50      left: 43.5%;\n   51  }\n   52  \n   53: .find-map {\n   54      background-color: transparent;\n   55      float: left;\n\n2 matches in 1 file\n",
-			"settings":
-			{
-				"buffer_size": 656,
-				"line_ending": "Unix",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
 			"file": "sass/components/_header.scss",
 			"settings":
 			{
-				"buffer_size": 904,
+				"buffer_size": 1128,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/page.tpl.php",
+			"settings":
+			{
+				"buffer_size": 3922,
 				"line_ending": "Unix"
 			}
 		},
@@ -57,18 +55,15 @@
 			"file": "sass/components/_islandora.scss",
 			"settings":
 			{
-				"buffer_size": 6093,
+				"buffer_size": 6458,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "////////////////////////\n// Page Styling\n////////////////////////\n\nbody {\n	background: #fff;\n}\n\nh1.page__title {\n}\n\nh2 {\n    font-weight: 400;\n    line-height: 1.3em;\n    margin: 0 0 6px;\n}\n\na:link, a:visited {\n    color: #777;\n    text-decoration: none;\n}\na:hover, a:active {\n    color: #121738;\n}\n\n.front #main {\n    background: #F3F3F3;\n	border-bottom: 1px solid #ccc;\n	margin-top: 18em;\n	padding: 0;\n    margin-bottom: 5px;\n}\n\n#main {\n    background: #fff;\n}\n\n#content {\n}\n\nul.pager {\n        li {\n        }\n}\n\n// Frontpage Styling //\n\n.not-front .find-map {\n    position: relative;\n    left: 43.5%;\n}\n\n.find-map {\n    background-color: transparent;\n    float: left;\n    margin: 10px 0 17px 0px;\n    padding: 0;\n    width: 260px;\n\n    a {\n        background-color: #FFFFFF;\n        border: 5px solid #DADADA;\n        display: inline-block;\n        margin-top: 10px;\n        min-height: 51px;\n        min-width: 80%;\n        padding: 21px 20px 18px;\n        position: relative;\n        text-align: center;\n        text-decoration: none;\n        transition: all 0.2s ease 0s;\n        vertical-align: bottom;\n        span.icon {\n            background: url(\"../images/icons/sprite.png\") no-repeat scroll -136px -1px transparent;\n            display: inline-block;\n            height: 47px;\n            opacity: 0.75;\n            position: relative;\n            transition: all 0.2s ease 0s;\n            width: 47px;\n        }\n        em {\n            color: #717171;\n            display: inline-block;\n            font-family: 'Ropa Sans';\n            font-size: 19px;\n            font-style: italic;\n            margin: 14px 0 0 10px;\n            vertical-align: top;\n        }\n    }\n    a:hover {\n        border-color: #787878;\n    }\n    p {\n        margin: 0;\n    }\n}\n\n.front h2 {\n    font-style: italic;\n}\n\n//Search Pages //\n\n#page-title {\n    font-size: 30px;\n    font-weight: 400;\n    line-height: 31px;\n    left: 470px;\n    margin: 0;\n    position: relative;\n    top: -130px;\n    width: 55%;\n}\n\n.one-sidebar #page-title {\n    @extend #page-title;\n    left: 230px;\n}\n\n.region-sidebar-first {\n    margin-top: 9.45em;\n}\n\n.simple-search {\n   float: left; \n}\n\n// Search grid view //\n\ndl.solr-grid-field {\n  margin: 0.5em 1%;\n}\n\ndd.solr-grid-caption {\n    a:link, a:visited {\n        color: #009100;\n        font-size: 90%;\n        text-decoration: underline;\n    }\n    a:hover, a.active {\n        color: #00A600;\n    }\n}\n\n// Record detail pages //\n\n.shareoptions {\n    clear: both;\n    float: left;\n    margin: 40px 0;\n    width: 100%;\n    ul {\n        list-style: none;\n        margin: 0;\n        padding: 0;\n        overflow: hidden;\n        li {\n            float: left;\n            a {\n                background-color: #FFFFFF;\n                border-bottom: 1px solid #CDCDCD;\n                border-right: 1px solid #CDCDCD;\n                border-top: 1px solid #CDCDCD;\n                color: #818181;\n                display: block;\n                font-size: 10px;\n                height: 53px;\n                position: relative;\n                text-align: center;\n                text-decoration: none;\n                width: 72px;\n                span {\n                    background: url(\"../images/icons/sprite.png\") no-repeat scroll right bottom transparent;\n                    display: block;\n                    height: 21px;\n                    margin: 10px auto 0;\n                    opacity: 0.75;\n                    position: relative;\n                    transition: all 0.2s ease 0s;\n                    width: 28px;\n                }\n            }\n        }\n        li.share span {\n            background-position: -80px 0; \n        }\n        li.save span {\n            background-position: -80px -22px; \n        }\n        li.export span {\n            background-position: -80px -44px; \n        }\n        li.cite span {\n            background-position: -80px -66px; \n        }\n        li:first-child a {\n            border-left: 1px solid #CDCDCD;\n        }\n        li a:hover {\n           text-decoration: underline; \n           span {\n            opacity: 1;\n           }\n        }\n    }\n}\n\n.node-readmore {\n    color: #009100 !important;\n    font-style: italic;\n    text-decoration: none;\n    font-family: 'Ropa Sans',Arial;\n    :hover {\n        color: #00AB00 !important;\n    }\n    :visited {\n        color: #009100 !important;\n    }\n    :after {\n        content: \"»\"; \n        margin-left: 5px;\n        margin-top: 5px;\n        font-size: 120%;\n    }\n}\n\n",
 			"file": "sass/components/_page.scss",
-			"file_size": 4494,
-			"file_write_time": 1384456940000000,
 			"settings":
 			{
-				"buffer_size": 4493,
+				"buffer_size": 4497,
 				"line_ending": "Unix"
 			}
 		},
@@ -84,7 +79,7 @@
 			"file": "sass/components/_navigation.scss",
 			"settings":
 			{
-				"buffer_size": 2872,
+				"buffer_size": 2873,
 				"line_ending": "Unix"
 			}
 		},
@@ -92,7 +87,7 @@
 			"file": "sass/components/_views.scss",
 			"settings":
 			{
-				"buffer_size": 494,
+				"buffer_size": 514,
 				"line_ending": "Unix"
 			}
 		},
@@ -108,7 +103,7 @@
 			"file": "sass/layouts/_responsive.scss",
 			"settings":
 			{
-				"buffer_size": 5238,
+				"buffer_size": 6962,
 				"line_ending": "Unix"
 			}
 		}
@@ -145,6 +140,9 @@
 	},
 	"file_history":
 	[
+		"/Volumes/The Vag 2/themes/dtu_theme/sass/components/_misc.scss",
+		"/Volumes/The Vag 2/themes/dtu_theme/templates/page--front.tpl.php",
+		"/Volumes/The Vag 2/themes/dtu_theme/templates/page.tpl.php",
 		"/Volumes/The Vag/themes/dtu_theme/js/script.js",
 		"/Volumes/The Vag/themes/dtu_theme/templates/islandora-dublin-core-display.tpl.php",
 		"/Volumes/The Vag/themes/dtu_theme/templates/islandora-basic-image.tpl.php",
@@ -225,7 +223,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 			""
@@ -236,6 +234,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"content",
+			"brwose",
+			".not-front",
+			"border",
+			"#site-name",
 			".front #main",
 			".find-map",
 			"html",
@@ -334,78 +337,23 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 8,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"settings":
-					{
-						"buffer_size": 656,
-						"regions":
-						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										130,
-										141
-									],
-									[
-										240,
-										251
-									],
-									[
-										466,
-										475
-									],
-									[
-										557,
-										566
-									]
-								],
-								"scope": ""
-							}
-						},
-						"selection":
-						[
-							[
-								554,
-								554
-							]
-						],
-						"settings":
-						{
-							"detect_indentation": false,
-							"output_tag": 2,
-							"result_base_dir": "",
-							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 323.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "sass/components/_header.scss",
 					"settings":
 					{
-						"buffer_size": 904,
+						"buffer_size": 1128,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								704,
-								704
+								1126,
+								1126
 							]
 						],
 						"settings":
@@ -420,19 +368,47 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "sass/components/_islandora.scss",
+					"buffer": 1,
+					"file": "templates/page.tpl.php",
 					"settings":
 					{
-						"buffer_size": 6093,
+						"buffer_size": 3922,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6044,
-								6044
+								168,
+								168
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sass/components/_islandora.scss",
+					"settings":
+					{
+						"buffer_size": 6458,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								166,
+								166
 							]
 						],
 						"settings":
@@ -441,7 +417,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5864.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -451,7 +427,7 @@
 					"file": "sass/components/_page.scss",
 					"settings":
 					{
-						"buffer_size": 4493,
+						"buffer_size": 4497,
 						"regions":
 						{
 						},
@@ -469,7 +445,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 137.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -507,15 +483,15 @@
 					"file": "sass/components/_navigation.scss",
 					"settings":
 					{
-						"buffer_size": 2872,
+						"buffer_size": 2873,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								470,
-								470
+								544,
+								544
 							]
 						],
 						"settings":
@@ -524,7 +500,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 392.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -534,15 +510,15 @@
 					"file": "sass/components/_views.scss",
 					"settings":
 					{
-						"buffer_size": 494,
+						"buffer_size": 514,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								288,
-								288
+								171,
+								171
 							]
 						],
 						"settings":
@@ -588,15 +564,15 @@
 					"file": "sass/layouts/_responsive.scss",
 					"settings":
 					{
-						"buffer_size": 5238,
+						"buffer_size": 6962,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								6574,
+								6574
 							]
 						],
 						"settings":
@@ -606,7 +582,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3280.0,
+						"translation.y": 4109.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

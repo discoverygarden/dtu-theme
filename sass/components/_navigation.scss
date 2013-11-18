@@ -32,6 +32,7 @@
 	position: relative;
 	top: -2px;
 	margin: 0;
+	z-index: 10;
 	span.openclose {
 		background: url("../images/icons/language-menu.png") no-repeat scroll 0 2px #000000;
 		right: 10px;
@@ -92,7 +93,6 @@
 .browse-menu {
 	background: #fff;
 	float: left;
-	width: 41%;
 	padding: 20px 30px;
 	border-bottom: 3px solid #009100;
 	.browsecats {

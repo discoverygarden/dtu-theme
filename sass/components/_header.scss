@@ -23,15 +23,18 @@
 
 #name-and-slogan {
 	background: #009100;
-	padding: 25px 0 25px 50px;
+	padding: 25px 0 6px 50px;
 	max-width: 370px;
 	font-family: 'Ropa Sans';
 	#site-name {
 		color: #fff;
 		font-size: 300%;
 		font-style: italic;
-		font-weight: 400;
+		font-weight: bold;
 		line-height: 1em;
+		a:link, a:visited {
+			color: #fff;
+		}
 	}
 	#site-slogan {
 		color: #CEE3CE;
@@ -40,7 +43,13 @@
 		line-height: 0.85em;
 		letter-spacing: 0.6pt;
 	}
-
+	span.border__name-and-slogan {
+		background: none repeat scroll 0 0 #FFFFFF;
+		display: block;
+		height: 3px;
+		margin: 25px 0 0 -50px;
+		padding-right: 34px;
+	}	
 }
 .not-front #name-and-slogan {
 	padding: 25px 0 6px 50px;
@@ -48,9 +57,12 @@
 	span.border__name-and-slogan {
 		background: none repeat scroll 0 0 #FFFFFF;
 		display: block;
-		height: 5px;
+		height: 3px;
 		margin: 25px 0 0 -50px;
 		padding-right: 34px;
-		width: 386px;
 	}	
+}
+
+.mobile-about {
+	display: none;
 }

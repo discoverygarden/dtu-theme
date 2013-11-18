@@ -59,6 +59,7 @@
         <?php if ($site_slogan): ?>
           <div class="header__site-slogan" id="site-slogan"><?php print $site_slogan; ?></div>
         <?php endif; ?>
+          <span class="border__name-and-slogan"</span>        
       </div>
     <?php endif; ?>
 

@@ -208,3 +208,93 @@ $zen-auto-include-item-base: false;
     }
   }
 }
+
+@media all and (max-width: 1023px) {
+  .browse-menu {
+    width: 16.2em;
+  } 
+  #block-islandora-solr-simple {
+    width: 16.2em !important; 
+    .adv_search {
+      right: 7px !important;
+    }
+  }
+}
+
+@media all and (max-width: 767px) {
+  #head-back {
+    background: none !important;
+  }
+  #main-menu {
+    width: 91.5% !important;
+    float: none !important;
+    left: 0;
+  }
+  #langnavigation {
+    top: -45px !important;
+  }
+  .mobile-about {
+    display: block !important;
+    h2 {
+      margin: 115px 0 0 20px;
+      max-width: 55%;
+      color: #009100;
+      line-height: 1.1em;
+    }
+    a {
+      margin-left: 20px;
+      font-size: 80%;
+      font-style: italic;
+      color: #009100;
+    }
+    a:after {
+      content: "»"; 
+      padding-left: 5px;
+    }
+    a:link, a:visited {
+      color: #009100;
+    }
+    a:hover, a:active {
+      color: #00AB00;
+    }
+  }
+  .view-frontpage {
+    display: none;
+  }
+  .front #main {
+    margin-top: 2.8em !important;
+  }
+  #content {
+    padding-left: 0 !important;
+  }
+  #name-and-slogan {
+    width: 96.6% !important;
+    max-width: 98% !important;
+    font-size: 50%;
+    padding: 15px 0 3px 20px !important;
+    #site-slogan {
+      max-width: 30%;
+    }
+    span.border__name-and-slogan {
+      margin: 15px 0 0 -20px !important;
+    }
+  }
+  .browse-menu {
+    width: 95.6% !important;
+    padding: 20px 17px !important;
+  } 
+  .find-map {
+    background-color: #FFFFFF !important;
+    margin: 20px 0 !important;
+    overflow: hidden;
+    padding: 10px 6% 20px !important;
+    width: 88% !important;
+  }
+  #block-islandora-solr-simple {
+    width: 95.6% !important; 
+    padding: 20px 17px !important;
+    .adv_search {
+      right: 7px !important;
+    }
+  }
+}

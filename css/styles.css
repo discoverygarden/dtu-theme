@@ -879,6 +879,127 @@ table {
     margin-right: -100%;
   }
 }
+@media all and (max-width: 1023px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/layouts\/_responsive\.scss}line{font-family:\00003213}}
+  .browse-menu {
+    width: 16.2em;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/layouts\/_responsive\.scss}line{font-family:\00003216}}
+  #block-islandora-solr-simple {
+    width: 16.2em !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/layouts\/_responsive\.scss}line{font-family:\00003218}}
+  #block-islandora-solr-simple .adv_search {
+    right: 7px !important;
+  }
+}
+@media all and (max-width: 767px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/layouts\/_responsive\.scss}line{font-family:\00003225}}
+  #head-back {
+    background: none !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/layouts\/_responsive\.scss}line{font-family:\00003228}}
+  #main-menu {
+    width: 91.5% !important;
+    float: none !important;
+    left: 0;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/layouts\/_responsive\.scss}line{font-family:\00003233}}
+  #langnavigation {
+    top: -45px !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/layouts\/_responsive\.scss}line{font-family:\00003236}}
+  .mobile-about {
+    display: block !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/layouts\/_responsive\.scss}line{font-family:\00003238}}
+  .mobile-about h2 {
+    margin: 115px 0 0 20px;
+    max-width: 55%;
+    color: #009100;
+    line-height: 1.1em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/layouts\/_responsive\.scss}line{font-family:\00003244}}
+  .mobile-about a {
+    margin-left: 20px;
+    font-size: 80%;
+    font-style: italic;
+    color: #009100;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/layouts\/_responsive\.scss}line{font-family:\00003250}}
+  .mobile-about a:after {
+    content: "»";
+    padding-left: 5px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/layouts\/_responsive\.scss}line{font-family:\00003254}}
+  .mobile-about a:link, .mobile-about a:visited {
+    color: #009100;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/layouts\/_responsive\.scss}line{font-family:\00003257}}
+  .mobile-about a:hover, .mobile-about a:active {
+    color: #00AB00;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/layouts\/_responsive\.scss}line{font-family:\00003261}}
+  .view-frontpage {
+    display: none;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/layouts\/_responsive\.scss}line{font-family:\00003264}}
+  .front #main {
+    margin-top: 2.8em !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/layouts\/_responsive\.scss}line{font-family:\00003267}}
+  #content {
+    padding-left: 0 !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/layouts\/_responsive\.scss}line{font-family:\00003270}}
+  #name-and-slogan {
+    width: 96.6% !important;
+    max-width: 98% !important;
+    font-size: 50%;
+    padding: 15px 0 3px 20px !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/layouts\/_responsive\.scss}line{font-family:\00003275}}
+  #name-and-slogan #site-slogan {
+    max-width: 30%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/layouts\/_responsive\.scss}line{font-family:\00003278}}
+  #name-and-slogan span.border__name-and-slogan {
+    margin: 15px 0 0 -20px !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/layouts\/_responsive\.scss}line{font-family:\00003282}}
+  .browse-menu {
+    width: 95.6% !important;
+    padding: 20px 17px !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/layouts\/_responsive\.scss}line{font-family:\00003286}}
+  .find-map {
+    background-color: #FFFFFF !important;
+    margin: 20px 0 !important;
+    overflow: hidden;
+    padding: 10px 6% 20px !important;
+    width: 88% !important;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/layouts\/_responsive\.scss}line{font-family:\00003293}}
+  #block-islandora-solr-simple {
+    width: 95.6% !important;
+    padding: 20px 17px !important;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/layouts\/_responsive\.scss}line{font-family:\00003296}}
+  #block-islandora-solr-simple .adv_search {
+    right: 7px !important;
+  }
+}
 /* Component (SMACSS module) rules */
 /**
  * @file
@@ -982,28 +1103,27 @@ table {
 /* The link around the name of the website. */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003106}}
 .header__site-link:link, .header__site-link:visited {
-  color: #000;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003112}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003111}}
 .header__site-link:hover, .header__site-link:focus {
   text-decoration: underline;
 }
 
 /* The slogan (or tagline) of a website. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003117}}
 .header__site-slogan {
   margin: 0;
 }
 
 /* The secondary menu (login, etc.) */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003122}}
 .header__secondary-menu {
   float: right;
 }
 
 /* Wrapper for any blocks placed in the header region. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003127}}
 .header__region {
   /* Clear the logo. */
   clear: both;
@@ -1012,24 +1132,24 @@ table {
 /**
  * Navigation bar.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003136}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003135}}
 #navigation {
   /* Sometimes you want to prevent overlapping with main div. */
   /* overflow: hidden; */
   /* Main menu and secondary menu links and menu block links. */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003139}}
 #navigation .block {
   margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003150}}
 #navigation .links,
 #navigation .menu {
   margin: 0;
   padding: 0;
   text-align: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003155}}
 #navigation .links li,
 #navigation .menu li {
   /* A simple method to get navigation links to appear in one line. */
@@ -1042,12 +1162,12 @@ table {
 /**
  * Breadcrumb navigation.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003170}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003169}}
 .breadcrumb ol {
   margin: 0;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003173}}
 .breadcrumb li {
   display: inline;
   list-style-type: none;
@@ -1058,7 +1178,7 @@ table {
 /**
  * Titles.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003190}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003189}}
 .page__title,
 .node__title,
 .block__title,
@@ -1072,7 +1192,7 @@ table {
 /**
  * Messages.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003196}}
 .messages, .messages--status, .messages--warning, .messages--error {
   margin: 1.5em 0;
   padding: 10px 10px 10px 50px;
@@ -1082,50 +1202,50 @@ table {
   border: 1px solid #be7;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003212}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003211}}
 .messages--warning {
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACuElEQVRIiWP4//8/Ay0xSYqntTpnT252zqeJBf0Njhsykrz/pyd6/e9vcNpGVQv6q2wlm0qc/r0+IPD/3UG+/61l9v9mdrjIUc2C7hqHUzc3S///eZwBjO9tF/vfWe1wjioWTKixVm8otPn38wQT3IKfxxn/t5Va/utpsNSg2ILWcttrNzdJgQ3+dpQRjEHs+9tE/zeXWt+gyILOamuTqlxrsOtPLub+7+emBsSq/88v5wL7oqHQ9H9nmbkF2RbUF1rev7lJEuziuU3i/90ddcB4UZsoJC62ifyvK7R4QJYFrcUGrmUZ5v9hYb9hosh/bzcDMN42VRgeF9W5hv8bi/XdSbagKtfs2c1NEvCIPbaQ/7+/pwkYn17Ki0hR24T/l2eZPCfJgsZ83dCiNOP/yCnn7iau/8G+5mD8aBsHSoqqyNL9X5erHUm0BcVpRm9ubhZHMoTh/4eDzP/DA23+RwTZ/P96hAlF7t5Wof8FyfpvibKgNk8noyDZ4D9quofg1Bjr/1kJlhjiIF+Upmn/r83RzCJoQXaC3qcbm8SwGMLwvybP/H8jMGlik7u7VeB/Zqz2J7wWVGdr1uTG62J1PQgfWST1/+hiCaxyIF8UJqv9r8hQrcVpQVqkzrcbG0WwGvB2H/P/lnx5MAaxsam5vYn3f2KY+jesFpSlqfZnxWjidP2OGWL/g/0swBjExu4Lhv958Ur/i5KU+lEsCA1lYI4JUv95bZ0gTo2Pt3P+z0myBmMQG5e6mxu4/kf4Kf8EmQm3oCRNebKrvSawIGPBqRG9sMOp5hjjfwdrlf/58bKT4RaUpWvtcLZV/39iscD/H0AFP46jYwYiMeP/44u4/9tbKQODSXUH3II9G7v18hI0n8YGKv+IDVT6joxj/BVx4mgcOCde/SnITPRUJAHEGlTCEkQV19TAAN8FC67hZdFXAAAAAElFTkSuQmCC');
   border-color: #ed5;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003220}}
 .messages--error {
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACpElEQVR42rWWTUgbQRiGQ0Tx4MWDeFM8eBA9iKAoggiCoCiiIiL4L3oQV1CJB0UEf6iRYFpK7UniTw9VSqL2kvQsVDBpSZrtRo35czVNW3oprRf17exSl4yzu1ikAy9h59vvedhkMrMGAGoxknAk2w8MJ/WosXThiZkZt9jdLeglPjn5ATc3mhJNuNjbK0QbG3ExMICL/n6IfX0gcxB7ekDAELu6IHZ2IlJbi1hLS1BLogmPtbUhMTv7oMSamzUlqnByMxLT0/8STQkDj9TV4ZLj5OysrODl8jIu5Gs68dFR7JG6dWkJ0fFx+TpSX89IDMnwcHU1yKec12Yz3rlc4HkeLwjkXJpPip3U3+7vIx6P4ymph4eG5PlwTQ0lMdytlmBxMWKtrXLeT0zA5XTibvj9fjxfXETkb/3N/Dz2dneVuiTZtliU/rPSUsQ5ziuxZYG03IIlJdKKUPJjdRUAKMmzuTnskB/VYbdTtd9HR4g2NCi9Z2VliDY1BSnBaUEBzsrLqXyzWCiQ9HU5HA4afniIUFWV0hOqqMBpURErOM7NxWlhIZOvCwvA7S3Uxq+DA5AnZ3pO8vJYQSArC8c5Oeqx2Rj4udeLQH6+6v2B7GxW8DkjA0JmJpONwUHY7XZGIAgCzCYTeJUewmIFfqMRfEoKlQ2yJbza2oLWcLvdeDI2hk/3+iQWKzAYkJzNjg5srq9TwJ9OJ76YTNScx+ORJT66X1/grKyEbW2NgfPp6XKd/JMZySrHaQsSU1Oe+0/w3WpVgyu5HBlR6lc+H8gioevDwz6JrWwV5+3txyoSFk5DcOX1MnCyJ4Vwfb1zt1UY9SR8aioDpuppaVpwZbPTl+hHF04dOKzk8XBF8DgJC3/woU/W/EciOtELOWi8DDwp//215Q+p7kiKh2lQSAAAAABJRU5ErkJggg==');
   border-color: #ed541d;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003230}}
 .messages__list {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003233}}
 .messages__item {
   list-style-image: none;
 }
 
 /* Core/module installation error messages. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003239}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003238}}
 .messages--error p.error {
   color: #333;
 }
 
 /* System status report. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003245}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003244}}
 .ok,
 .messages--status {
   background-color: #f8fff0;
   color: #234600;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003250}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003249}}
 .warning,
 .messages--warning {
   background-color: #fffce5;
   color: #840;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003255}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003254}}
 .error,
 .messages--error {
   background-color: #fef5f1;
@@ -1136,7 +1256,7 @@ table {
  * Tabs.
  */
 /* Basic positioning styles shared by primary and secondary tabs. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003265}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003264}}
 .tabs-primary, .tabs-secondary {
   overflow: hidden;
   background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(100%, #bbbbbb), color-stop(100%, transparent));
@@ -1152,14 +1272,14 @@ table {
   white-space: nowrap;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003275}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003274}}
 .tabs-primary__tab, .tabs-primary__tab.is-active, .tabs-secondary__tab,
 .tabs-secondary__tab.is-active {
   float: left;
   margin: 0 3px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003279}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003278}}
 a.tabs-primary__tab-link, a.tabs-primary__tab-link.is-active, a.tabs-secondary__tab-link, a.tabs-secondary__tab-link.is-active {
   border: 1px solid #e9e9e9;
   border-right: 0;
@@ -1170,7 +1290,7 @@ a.tabs-primary__tab-link, a.tabs-primary__tab-link.is-active, a.tabs-secondary__
 }
 
 /* Primary tabs. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003292}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003291}}
 .tabs-primary__tab, .tabs-primary__tab.is-active {
   -moz-border-radius-topleft: 4px;
   -webkit-border-top-left-radius: 4px;
@@ -1185,12 +1305,12 @@ a.tabs-primary__tab-link, a.tabs-primary__tab-link.is-active, a.tabs-secondary__
   border-bottom: 0 \0/ie;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003301}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003300}}
 .is-active.tabs-primary__tab {
   border-bottom-color: white;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003307}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003306}}
 a.tabs-primary__tab-link, a.tabs-primary__tab-link.is-active {
   -moz-border-radius-topleft: 4px;
   -webkit-border-top-left-radius: 4px;
@@ -1209,13 +1329,13 @@ a.tabs-primary__tab-link, a.tabs-primary__tab-link.is-active {
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003316}}
 a.tabs-primary__tab-link:hover, a.tabs-primary__tab-link:focus {
   background-color: #e9e9e9;
   border-color: #f2f2f2;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003320}}
 a.tabs-primary__tab-link:active, a.tabs-primary__tab-link.is-active {
   background-color: transparent;
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFE9E9E9', endColorstr='#00E9E9E9');
@@ -1228,20 +1348,20 @@ a.tabs-primary__tab-link:active, a.tabs-primary__tab-link.is-active {
 }
 
 /* Secondary tabs. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003344}}
 .tabs-secondary {
   font-size: .9em;
   /* Collapse bottom margin of ul.primary. */
   margin-top: -1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003351}}
 .tabs-secondary__tab,
 .tabs-secondary__tab.is-active {
   margin: 0.75em 3px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003357}}
 a.tabs-secondary__tab-link, a.tabs-secondary__tab-link.is-active {
   -webkit-border-radius: 0.75em;
   -moz-border-radius: 0.75em;
@@ -1258,14 +1378,14 @@ a.tabs-secondary__tab-link, a.tabs-secondary__tab-link.is-active {
   padding: 0 .5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003366}}
 a.tabs-secondary__tab-link:hover, a.tabs-secondary__tab-link:focus {
   background-color: #dedede;
   border-color: #999;
   color: #333;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003371}}
 a.tabs-secondary__tab-link:active, a.tabs-secondary__tab-link.is-active {
   text-shadow: 1px 1px 0 #333333;
   background-color: #666;
@@ -1277,12 +1397,12 @@ a.tabs-secondary__tab-link:active, a.tabs-secondary__tab-link.is-active {
  * Inline styles.
  */
 /* List of links generated by theme_links(). */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003400}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003399}}
 .inline {
   display: inline;
   padding: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003404}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003403}}
 .inline li {
   display: inline;
   list-style-type: none;
@@ -1290,7 +1410,7 @@ a.tabs-secondary__tab-link:active, a.tabs-secondary__tab-link.is-active {
 }
 
 /* The inline field label used by the Fences module. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003412}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003411}}
 span.field-label {
   padding: 0 1em 0 0;
 }
@@ -1298,17 +1418,17 @@ span.field-label {
 /**
  * "More" links.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003419}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003418}}
 .more-link {
   text-align: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003422}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003421}}
 .more-help-link {
   text-align: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003425}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003424}}
 .more-help-link a {
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA7UlEQVR42qWTPQqDQBCFcwSPkCNITpAj5AjeIm1uYpkyR7Cy2Mot7OwsBAsRwUKwmOwLGRle3EIy8PyBfZ/z3J2TiPylz8VWWZZpUB40BonRKyizaxkA88MYYiqCEgv4MTvnZJom0VqWRbz3FlJZgLYtqmEY1Lg9r+sKsIXcLSC3AC019H0vqLquLeC5AfiHYSGkcdAJimKIBQiJ4+CO92OAtm0FNc8zOjkMwE5Q63FAtbeg6zpAYvG8BWR7i5qmQYwY4MIHqYhE2DOPQWcGJBQF2XU72ZzyUeZ5GCNt5/hybJgYdAXsq5sOEE/jG6dC5IOqCXTmAAAAAElFTkSuQmCC');
   background-position: 0 50%;
@@ -1320,14 +1440,14 @@ span.field-label {
  * Pager.
  */
 /* A list of page numbers when more than 1 page of content is available. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003440}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003439}}
 .pager {
   clear: both;
   padding: 0;
   text-align: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003445}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003444}}
 .pager-item,
 .pager-first,
 .pager-previous,
@@ -1340,7 +1460,7 @@ span.field-label {
   background-image: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003457}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003456}}
 .pager-item,
 .pager-first,
 .pager-previous,
@@ -1351,7 +1471,7 @@ span.field-label {
 }
 
 /* The current page's list item. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003462}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003461}}
 .pager-current {
   font-weight: bold;
 }
@@ -1360,7 +1480,7 @@ span.field-label {
  * Blocks.
  */
 /* Block wrapper. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003472}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003471}}
 .block {
   margin-bottom: 1.5em;
 }
@@ -1368,26 +1488,26 @@ span.field-label {
 /**
  * Menus.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003479}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003478}}
 .menu__item.is-leaf {
   list-style-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHBAMAAAA2fErgAAAAD1BMVEX///+/v7+Li4sAAADAwMBFvsw8AAAAAXRSTlMAQObYZgAAAB1JREFUCFtjYAADYwMGBmYVZSDhKAwkFJWhYiAAAB2+Aa/9ugeaAAAAAElFTkSuQmCC');
   list-style-type: square;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003486}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003485}}
 .menu__item.is-expanded {
   list-style-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHAQMAAAD+nMWQAAAABlBMVEX///8AAABVwtN+AAAAAXRSTlMAQObYZgAAABJJREFUeJxj+MdQw2DBIMAABgAUsAHD3c3BpwAAAABJRU5ErkJggg==');
   list-style-type: circle;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003493}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003492}}
 .menu__item.is-collapsed {
   list-style-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHAQMAAAD+nMWQAAAABlBMVEX///8AAABVwtN+AAAAAXRSTlMAQObYZgAAABFJREFUCB1jVmCGQClmEWYOAAZ8AMy3HPLXAAAAAElFTkSuQmCC');
   list-style-type: disc;
 }
 
 /* The active item in a Drupal menu. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003502}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003501}}
 .menu a.active {
   color: #000;
 }
@@ -1396,7 +1516,7 @@ span.field-label {
  * Marker.
  */
 /* The "new" or "updated" marker. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003512}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003511}}
 .new,
 .update {
   color: #c00;
@@ -1408,7 +1528,7 @@ span.field-label {
  * Unpublished note.
  */
 /* The word "Unpublished" displayed underneath the content. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003523}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003522}}
 .unpublished {
   height: 0;
   overflow: visible;
@@ -1429,31 +1549,31 @@ span.field-label {
  * Comments.
  */
 /* Wrapper for the list of comments and its title. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003551}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003550}}
 .comments {
   margin: 1.5em 0;
 }
 
 /* Preview of the comment before submitting new or updated comment. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003556}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003555}}
 .comment-preview {
   /* Drupal core will use a #ffffea background. See #1110842. */
   background-color: #ffffea;
 }
 
 /* Wrapper for a single comment. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003562}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003561}}
 .comment {
   /* Comment's permalink wrapper. */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003565}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003564}}
 .comment .permalink {
   text-transform: uppercase;
   font-size: 75%;
 }
 
 /* Nested comments are indented. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003572}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003571}}
 .indented {
   /* Drupal core uses a 25px left margin. */
   margin-left: 30px;
@@ -1463,7 +1583,7 @@ span.field-label {
  * Forms.
  */
 /* Wrapper for a form element (or group of form elements) and its label. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003582}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003581}}
 .form-item {
   margin: 1.5em 0;
   /* Pack groups of checkboxes and radio buttons closer together. */
@@ -1471,47 +1591,47 @@ span.field-label {
   /* Highlight the form elements that caused a form submission error. */
   /* The descriptive help text (separate from the label). */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003587}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003586}}
 .form-checkboxes .form-item, .form-radios .form-item {
   /* Drupal core uses "0.4em 0". */
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003594}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003593}}
 tr.odd .form-item, tr.even .form-item {
   margin: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003601}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003600}}
 .form-item input.error,
 .form-item textarea.error,
 .form-item select.error {
   border: 1px solid #c00;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003606}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003605}}
 .form-item .description {
   font-size: 0.85em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003613}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003612}}
 .form-type-radio .description,
 .form-type-checkbox .description {
   margin-left: 2.4em;
 }
 
 /* The part of the label that indicates a required field. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003619}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003618}}
 .form-required {
   color: #c00;
 }
 
 /* Labels for radios and checkboxes. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003624}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003623}}
 label.option {
   display: inline;
   font-weight: normal;
 }
 
 /* Buttons used by contrib modules like Media. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003630}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003629}}
 a.button {
   -webkit-appearance: button;
   -moz-appearance: button;
@@ -1519,14 +1639,14 @@ a.button {
 }
 
 /* Password confirmation. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003636}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003635}}
 .password-parent,
 .confirm-parent {
   margin: 0;
 }
 
 /* Drupal's default login form block. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003641}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003640}}
 #user-login-form {
   text-align: left;
 }
@@ -1538,27 +1658,27 @@ a.button {
  * styling of list items.
  */
 /* OpenID creates a new ul above the login form's links. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003653}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003652}}
 .openid-links {
   /* Position OpenID's ul next to the rest of the links. */
   margin-bottom: 0;
 }
 
 /* The "Log in using OpenID" and "Cancel OpenID login" links. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003660}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003659}}
 .openid-link,
 .user-link {
   margin-top: 1.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003664}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003663}}
 html.js #user-login-form li.openid-link,
 #user-login-form li.openid-link {
   /* Un-do some of the padding on the ul list. */
   margin-left: -20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003668}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003667}}
 #user-login ul {
   margin: 1.5em 0;
 }
@@ -1566,22 +1686,22 @@ html.js #user-login-form li.openid-link,
 /**
  * Drupal admin tables.
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003676}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003675}}
 form th {
   text-align: left;
   padding-right: 1em;
   border-bottom: 3px solid #ccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003681}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003680}}
 form tbody {
   border-top: 1px solid #ccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003684}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003683}}
 form table ul {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003689}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003688}}
 tr.even,
 tr.odd {
   background-color: #eee;
@@ -1589,26 +1709,26 @@ tr.odd {
   padding: 0.1em 0.6em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003694}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003693}}
 tr.even {
   background-color: #fff;
 }
 
 /* Markup generated by theme_tablesort_indicator(). */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003709}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003708}}
 td.active {
   background-color: #ddd;
 }
 
 /* Center checkboxes inside table cell. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003715}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003714}}
 td.checkbox,
 th.checkbox {
   text-align: center;
 }
 
 /* Drupal core wrongly puts this in system.menus.css. Since we override that, add it back. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003720}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003719}}
 td.menu-disabled {
   background: #ccc;
 }
@@ -1619,7 +1739,7 @@ td.menu-disabled {
  * @see autocomplete.js
  */
 /* Suggestion list. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003731}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003730}}
 #autocomplete .selected {
   background: #0072b9;
   color: #fff;
@@ -1630,19 +1750,19 @@ td.menu-disabled {
  *
  * @see collapse.js
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003742}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003741}}
 html.js .collapsible .fieldset-legend {
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHAQMAAAD+nMWQAAAABlBMVEX///8AAABVwtN+AAAAAXRSTlMAQObYZgAAABJJREFUeJxj+MdQw2DBIMAABgAUsAHD3c3BpwAAAABJRU5ErkJggg==');
   background-position: 5px 65%;
   background-repeat: no-repeat;
   padding-left: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003751}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003750}}
 html.js .collapsed .fieldset-legend {
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHAQMAAAD+nMWQAAAABlBMVEX///8AAABVwtN+AAAAAXRSTlMAQObYZgAAABFJREFUCB1jVmCGQClmEWYOAAZ8AMy3HPLXAAAAAElFTkSuQmCC');
   background-position: 5px 50%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003758}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003757}}
 .fieldset-legend .summary {
   color: #999;
   font-size: 0.9em;
@@ -1654,17 +1774,17 @@ html.js .collapsed .fieldset-legend {
  *
  * @see tabledrag.js
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003770}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003769}}
 tr.drag {
   background-color: #fffff0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003773}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003772}}
 tr.drag-previous {
   background-color: #ffd;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003776}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003775}}
 .tabledrag-toggle-weight {
   font-size: 0.9em;
 }
@@ -1674,7 +1794,7 @@ tr.drag-previous {
  *
  * @see tableselect.js
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003785}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003784}}
 tr.selected td {
   background: #ffc;
 }
@@ -1684,11 +1804,11 @@ tr.selected td {
  *
  * @see progress.js
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003794}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003793}}
 .progress {
   font-weight: bold;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003797}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003796}}
 .progress .bar {
   background: #ccc;
   border-color: #666;
@@ -1699,7 +1819,7 @@ tr.selected td {
   -o-border-radius: 3px;
   border-radius: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003803}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_misc\.scss}line{font-family:\00003802}}
 .progress .filled {
   background-color: #0072b9;
   background-image: url('../images/progress.gif?1376896851');
@@ -1806,7 +1926,7 @@ tr.selected td {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_header\.scss}line{font-family:\0000324}}
 #name-and-slogan {
   background: #009100;
-  padding: 25px 0 25px 50px;
+  padding: 25px 0 6px 50px;
   max-width: 370px;
   font-family: 'Ropa Sans';
 }
@@ -1815,10 +1935,14 @@ tr.selected td {
   color: #fff;
   font-size: 300%;
   font-style: italic;
-  font-weight: 400;
+  font-weight: bold;
   line-height: 1em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_header\.scss}line{font-family:\0000336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_header\.scss}line{font-family:\0000335}}
+#name-and-slogan #site-name a:link, #name-and-slogan #site-name a:visited {
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_header\.scss}line{font-family:\0000339}}
 #name-and-slogan #site-slogan {
   color: #CEE3CE;
   font-size: 300%;
@@ -1826,20 +1950,32 @@ tr.selected td {
   line-height: 0.85em;
   letter-spacing: 0.6pt;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_header\.scss}line{font-family:\0000346}}
+#name-and-slogan span.border__name-and-slogan {
+  background: none repeat scroll 0 0 #FFFFFF;
+  display: block;
+  height: 3px;
+  margin: 25px 0 0 -50px;
+  padding-right: 34px;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_header\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_header\.scss}line{font-family:\0000354}}
 .not-front #name-and-slogan {
   padding: 25px 0 6px 50px;
   max-width: 370px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_header\.scss}line{font-family:\0000348}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_header\.scss}line{font-family:\0000357}}
 .not-front #name-and-slogan span.border__name-and-slogan {
   background: none repeat scroll 0 0 #FFFFFF;
   display: block;
-  height: 5px;
+  height: 3px;
   margin: 25px 0 0 -50px;
   padding-right: 34px;
-  width: 386px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_header\.scss}line{font-family:\0000366}}
+.mobile-about {
+  display: none;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_navigation\.scss}line{font-family:\000035}}
@@ -1879,8 +2015,9 @@ tr.selected td {
   position: relative;
   top: -2px;
   margin: 0;
+  z-index: 10;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_navigation\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_navigation\.scss}line{font-family:\0000336}}
 #langnavigation span.openclose {
   background: url("../images/icons/language-menu.png") no-repeat scroll 0 2px black;
   right: 10px;
@@ -1892,16 +2029,16 @@ tr.selected td {
   width: 23px;
   z-index: 10;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_navigation\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_navigation\.scss}line{font-family:\0000347}}
 #langnavigation span.openclose.open {
   background-position: -24px 2px;
   margin-right: 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_navigation\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_navigation\.scss}line{font-family:\0000350}}
 #langnavigation span.openclose.open img {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_navigation\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_navigation\.scss}line{font-family:\0000354}}
 #langnavigation ul {
   position: absolute;
   right: 0;
@@ -1911,22 +2048,22 @@ tr.selected td {
   list-style: none;
   padding: 0 3px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_navigation\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_navigation\.scss}line{font-family:\0000362}}
 #langnavigation ul li {
   border-bottom: 1px solid #fff;
   padding: 2px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_navigation\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_navigation\.scss}line{font-family:\0000365}}
 #langnavigation ul li a {
   line-height: 16px;
   padding: 5px 0;
   color: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_navigation\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_navigation\.scss}line{font-family:\0000369}}
 #langnavigation ul li a img {
   margin: 4px 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_navigation\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_navigation\.scss}line{font-family:\0000372}}
 #langnavigation ul li a span {
   display: inline-block;
   font-size: 12px;
@@ -1934,22 +2071,21 @@ tr.selected td {
   font-weight: 400;
   margin: 0 0 0 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_navigation\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_navigation\.scss}line{font-family:\0000379}}
 #langnavigation ul li a em {
   display: none;
   font-style: normal;
   margin: 0 0 0 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_navigation\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_navigation\.scss}line{font-family:\0000385}}
 #langnavigation ul li a span:hover {
   text-decoration: underline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_navigation\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_navigation\.scss}line{font-family:\0000393}}
 .browse-menu {
   background: #fff;
   float: left;
-  width: 41%;
   padding: 20px 30px;
   border-bottom: 3px solid #009100;
 }
@@ -2271,10 +2407,10 @@ dd.solr-grid-caption a:hover, dd.solr-grid-caption a.active {
 #block-islandora-solr-simple {
   float: left;
   background: #fff;
-  width: 41%;
+  width: 29.7em;
   padding: 20px 30px;
   margin: 0;
-  height: 140px;
+  height: 151px;
 }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_islandora\.scss}line{font-family:\0000313}}
 #block-islandora-solr-simple h2 {
@@ -2657,32 +2793,33 @@ fieldset.collapsible {
   max-width: 28%;
   min-width: 350px;
   padding: 30px;
+  min-height: 380px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_views\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_views\.scss}line{font-family:\0000312}}
 .view-frontpage h2 {
   font-style: italic;
   line-height: 1.1em;
   font-size: 150%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_views\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_views\.scss}line{font-family:\0000316}}
 .view-frontpage h2 a {
   color: #009100;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_views\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_views\.scss}line{font-family:\0000320}}
 .view-frontpage p {
   color: #777;
   font-family: 'Ropa Sans';
   font-size: 95%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_views\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_views\.scss}line{font-family:\0000328}}
 #block-views-image-blocks-block h2 {
   font-size: 65%;
   text-transform: uppercase;
   color: #5A5A5A;
   margin-bottom: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_views\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu_theme\/sass\/components\/_views\.scss}line{font-family:\0000334}}
 #block-views-image-blocks-block img {
   padding: 0 5% 1.5em 0;
 }
