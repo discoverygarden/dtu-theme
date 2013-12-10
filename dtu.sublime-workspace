@@ -91,7 +91,7 @@
 			"file": "sass/components/_views.scss",
 			"settings":
 			{
-				"buffer_size": 514,
+				"buffer_size": 521,
 				"line_ending": "Unix"
 			}
 		},
@@ -107,7 +107,7 @@
 			"file": "sass/layouts/_responsive.scss",
 			"settings":
 			{
-				"buffer_size": 6962,
+				"buffer_size": 6969,
 				"line_ending": "Unix"
 			}
 		}
@@ -238,6 +238,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"frontpage",
 			"content",
 			"brwose",
 			".not-front",
@@ -341,7 +342,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -421,7 +422,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 8649.0,
+						"translation.y": 8137.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -514,15 +515,15 @@
 					"file": "sass/components/_views.scss",
 					"settings":
 					{
-						"buffer_size": 514,
+						"buffer_size": 521,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								171,
-								171
+								90,
+								90
 							]
 						],
 						"settings":
@@ -568,15 +569,15 @@
 					"file": "sass/layouts/_responsive.scss",
 					"settings":
 					{
-						"buffer_size": 6962,
+						"buffer_size": 6969,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6574,
-								6574
+								6168,
+								6168
 							]
 						],
 						"settings":
@@ -586,7 +587,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4109.0,
+						"translation.y": 4185.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
