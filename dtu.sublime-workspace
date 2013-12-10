@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"fields",
+				"fieldset-title"
+			],
+			[
 				"font-s",
 				"font-style"
 			],
@@ -55,7 +59,7 @@
 			"file": "sass/components/_islandora.scss",
 			"settings":
 			{
-				"buffer_size": 6458,
+				"buffer_size": 9124,
 				"line_ending": "Unix"
 			}
 		},
@@ -63,7 +67,7 @@
 			"file": "sass/components/_page.scss",
 			"settings":
 			{
-				"buffer_size": 4497,
+				"buffer_size": 4524,
 				"line_ending": "Unix"
 			}
 		},
@@ -223,7 +227,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 93.0,
+		"height": 0.0,
 		"where_history":
 		[
 			""
@@ -337,7 +341,7 @@
 	"groups":
 	[
 		{
-			"selected": 8,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -400,15 +404,15 @@
 					"file": "sass/components/_islandora.scss",
 					"settings":
 					{
-						"buffer_size": 6458,
+						"buffer_size": 9124,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								166,
-								166
+								8844,
+								8844
 							]
 						],
 						"settings":
@@ -417,7 +421,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 8649.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -427,15 +431,15 @@
 					"file": "sass/components/_page.scss",
 					"settings":
 					{
-						"buffer_size": 4497,
+						"buffer_size": 4524,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								427,
-								427
+								490,
+								490
 							]
 						],
 						"settings":
@@ -490,8 +494,8 @@
 						"selection":
 						[
 							[
-								544,
-								544
+								462,
+								462
 							]
 						],
 						"settings":

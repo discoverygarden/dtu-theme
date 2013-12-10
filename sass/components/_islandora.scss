@@ -364,3 +364,144 @@ fieldset.collapsible {
 	border: none;	
 }
 
+// My account page -- Bookmark lists //
+
+#islandora-bookmark-detailed-overview {
+	background: #fff;
+	#islandora-bookmark-detailed-list {
+		fieldset {
+			border: 0 none;
+			.fieldset-wrapper {
+				border-top: 2px solid #009100;			
+				h3 {
+				  display: block;
+				  font-family: 'Ropa Sans',Arial;
+				  font-size: 24px;
+				  font-weight: 400;
+				  margin-bottom: 0.5em;
+				}
+				label {
+					text-transform: uppercase;
+					color: #777;
+					font-size: 67%;
+				}
+				.form-item-bookmarks-fieldset-export-options {
+					margin-top: 0;
+				}
+			}
+			table {
+				width: 100%;
+				margin-top: 0;
+				tr {
+					height: 3em;
+					th {
+						font-size: 67%;
+						text-transform: uppercase;
+						color: #777;
+						text-shadow: 0 1px 0 #FFFFFF;
+					}
+					td {
+							font-size: 90%;
+						a:link, a:visited {
+							color: #009100;
+							text-decoration: underline;
+						}	
+						a:hover, a.active {
+							color: #00A600;	
+						}
+					}
+					td.operations {
+						input {
+							background: url("../images/icons/sprite.png") no-repeat scroll -77px -110px;
+							color: #818181;
+							display: inline-block;
+							height: 27px;
+							opacity: 0.75;
+							padding-left: 8px;
+							position: relative;
+							text-align: center;
+							text-decoration: none;
+							text-indent: -999em;
+							transition: all 0.2s ease 0s;
+							width: 37px;
+							border: 0 none;
+							border-left: 1px solid #ccc;
+							border-right: 1px solid #ccc;
+						}
+						input:hover {
+							opacity: 1;
+						}
+					}
+				}
+			}
+		}
+		legend {
+			display: none;
+		}
+	}
+	#edit-bookmarks-users {
+		a.fieldset-title:link, a.fieldset-title:visited {
+		color: #009100;
+		text-decoration: underline;
+		}	
+		a.fieldset-title:hover {
+			color: #00A600;	
+		}
+		#edit-bookmarks-users-empty {
+			margin: 0.5em;
+		}
+	}
+}
+
+#islandora-bookmark-detailed-form-manage {
+	background: #fff;
+	a.fieldset-title:link, a.fieldset-title:visited {
+		color: #009100;
+		text-decoration: underline;
+	}	
+	a.fieldset-title:hover {
+		color: #00A600;	
+	}
+	label {
+		color: #777777;
+		font-size: 67%;
+		text-transform: uppercase;
+	}
+	.form-item-bookmarks-management-listname {
+		margin: 0.5em;
+	}
+}
+
+#islandora-bookmark-overview {
+	table {
+		width: 100%;
+		tr {
+			height: 3em;
+			th {
+				font-size: 67%;
+				text-transform: uppercase;
+				color: #777;
+				text-shadow: 0 1px 0 #FFFFFF;	
+				border-bottom: 2px solid #009100;
+			}
+			td {
+				a:link, a:visited {
+					color: #009100;
+					text-decoration: underline;
+				}
+				a:hover, a.active {
+					color: #00A600;
+				}
+			}
+		}
+	}
+}
+
+#block-islandora-bookmark-islandora-bookmark {
+	float: left;
+}
+
+#islandora-bookmark-rss-format {
+	display: none;
+}
+
