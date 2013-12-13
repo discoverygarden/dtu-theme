@@ -133,7 +133,7 @@ function dtu_theme_preprocess_block(&$variables, $hook) {
 
 function dtu_theme_form_islandora_solr_simple_search_form_alter(&$form, &$form_state, $form_id) {
   $link = array(
-    '#markup' => l(t("Search tips"), "node/7", array('attributes' => array('class' => array('adv_search')))),
+    '#markup' => l(t("Search tips"), "uuid/node/f8b0a9e5-1f51-4dbb-91f4-f15a8b57ade6", array('attributes' => array('class' => array('adv_search')))),
   );
   $form['simple']['advanced_link'] = $link;
 }

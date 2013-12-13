@@ -222,6 +222,16 @@
   }
 }
 
+// Hiding the thumbs on the search results pages //
+.islandora-solr-search-results {
+	.solr-thumb {
+		display: none;
+	}
+	.solr-fields {
+		width: 100%;
+	}
+}
+
 // Solr Display //
 #block-islandora-solr-display-switch {
   float: right;

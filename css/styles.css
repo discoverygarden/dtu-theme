@@ -2196,19 +2196,29 @@ a:hover, a:active {
   margin-bottom: 5px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\0000335}}
+.logged-in #page {
+  margin-top: 3.4em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\0000337}}
+.logged-in #page #navigation {
+  position: relative;
+  left: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\0000344}}
 #main {
   background: #F3F3F3;
   padding-bottom: 0.7em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\0000359}}
 .not-front .find-map {
   position: relative;
   left: 43.5%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\0000364}}
 .find-map {
   background-color: transparent;
   float: left;
@@ -2216,7 +2226,7 @@ a:hover, a:active {
   padding: 0;
   width: 260px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\0000371}}
 .find-map a {
   background-color: #FFFFFF;
   border: 5px solid #DADADA;
@@ -2231,7 +2241,7 @@ a:hover, a:active {
   transition: all 0.2s ease 0s;
   vertical-align: bottom;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\0000384}}
 .find-map a span.icon {
   background: url("../images/icons/sprite.png") no-repeat scroll -136px -1px transparent;
   display: inline-block;
@@ -2241,7 +2251,7 @@ a:hover, a:active {
   transition: all 0.2s ease 0s;
   width: 47px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\0000393}}
 .find-map a em {
   color: #717171;
   display: inline-block;
@@ -2251,21 +2261,21 @@ a:hover, a:active {
   margin: 14px 0 0 10px;
   vertical-align: top;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003103}}
 .find-map a:hover {
   border-color: #787878;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003106}}
 .find-map p {
   margin: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003111}}
 .front h2 {
   font-style: italic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003117}}
 #page-title, .one-sidebar #page-title {
   font-size: 30px;
   font-weight: 400;
@@ -2277,56 +2287,56 @@ a:hover, a:active {
   width: 55%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003128}}
 .one-sidebar #page-title {
   left: 230px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003133}}
 .region-sidebar-first {
   margin-top: 11.35em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003137}}
 .simple-search {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003133}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003143}}
 dl.solr-grid-field {
   margin: 0.5em 1%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003148}}
 dd.solr-grid-caption a:link, dd.solr-grid-caption a:visited {
   color: #009100;
   font-size: 90%;
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003153}}
 dd.solr-grid-caption a:hover, dd.solr-grid-caption a.active {
   color: #00A600;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003150}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003160}}
 .shareoptions {
   clear: both;
   float: left;
   margin: 40px 0;
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003155}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003165}}
 .shareoptions ul {
   list-style: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003160}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003170}}
 .shareoptions ul li {
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003162}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003172}}
 .shareoptions ul li a {
   background-color: #FFFFFF;
   border-bottom: 1px solid #CDCDCD;
@@ -2341,7 +2351,7 @@ dd.solr-grid-caption a:hover, dd.solr-grid-caption a.active {
   text-decoration: none;
   width: 72px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003175}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003185}}
 .shareoptions ul li a span {
   background: url("../images/icons/sprite.png") no-repeat scroll right bottom transparent;
   display: block;
@@ -2352,51 +2362,51 @@ dd.solr-grid-caption a:hover, dd.solr-grid-caption a.active {
   transition: all 0.2s ease 0s;
   width: 28px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003187}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003197}}
 .shareoptions ul li.share span {
   background-position: -80px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003190}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003200}}
 .shareoptions ul li.save span {
   background-position: -80px -22px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003193}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003203}}
 .shareoptions ul li.export span {
   background-position: -80px -44px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003196}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003206}}
 .shareoptions ul li.cite span {
   background-position: -80px -66px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003209}}
 .shareoptions ul li:first-child a {
   border-left: 1px solid #CDCDCD;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003202}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003212}}
 .shareoptions ul li a:hover {
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003204}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003214}}
 .shareoptions ul li a:hover span {
   opacity: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003221}}
 .node-readmore {
   color: #009100 !important;
   font-style: italic;
   text-decoration: none;
   font-family: 'Ropa Sans',Arial;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003216}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003226}}
 .node-readmore :hover {
   color: #00AB00 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003219}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003229}}
 .node-readmore :visited {
   color: #009100 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003222}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_page\.scss}line{font-family:\00003232}}
 .node-readmore :after {
   content: "»";
   margin-left: 5px;
@@ -2629,7 +2639,16 @@ dd.solr-grid-caption a:hover, dd.solr-grid-caption a.active {
   font-size: 75%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003227}}
+.islandora-solr-search-results .solr-thumb {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003230}}
+.islandora-solr-search-results .solr-fields {
+  width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003236}}
 #block-islandora-solr-display-switch {
   float: right;
   clear: left;
@@ -2639,46 +2658,46 @@ dd.solr-grid-caption a:hover, dd.solr-grid-caption a.active {
   opacity: 1;
   z-index: 15;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003235}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003245}}
 #block-islandora-solr-display-switch h2 {
   font-size: 80%;
   color: #777;
   display: inline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003240}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003250}}
 #block-islandora-solr-display-switch ul {
   display: inline;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003244}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003254}}
 #block-islandora-solr-display-switch div {
   float: right;
   display: inline;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003250}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003260}}
 .block-islandora-solr ul {
   margin: 0.5em 0 0;
   padding: 0 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003253}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003263}}
 .block-islandora-solr ul li {
   border-bottom: 1px solid #EEF0ED;
   list-style: none outside none;
   padding: 3px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003258}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003268}}
 .block-islandora-solr ul li.last {
   border: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003263}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003273}}
 #block-islandora-solr-display-switch ul li {
   float: left;
   margin: 3px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003269}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003279}}
 .islandora-solr-display a.display-default, .islandora-solr-display a.display-grid, .islandora-solr-display a.display-table,
 .islandora-view-grid, .islandora-view-list {
   background: url("../images/icons/sprite.png") no-repeat scroll left top transparent;
@@ -2689,80 +2708,80 @@ dd.solr-grid-caption a:hover, dd.solr-grid-caption a.active {
   width: 16px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003278}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003288}}
 .islandora-solr-display a.display-grid, .islandora-view-grid {
   background-position: -240px -16px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003282}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003292}}
 .islandora-solr-display a.display-table, .islandora-view-list {
   background-position: -240px -32px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003286}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003296}}
 .islandora-basic-collection-display-switch {
   opacity: 0.5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003288}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003298}}
 .islandora-basic-collection-display-switch li {
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003293}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003303}}
 .islandora-basic-collection {
   width: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003299}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003309}}
 #filters h2 {
   font-weight: normal;
   font-size: 125%;
   letter-spacing: 0.5pt;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003306}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003316}}
 #block-islandora-solr-sort h2 {
   font-size: 125%;
   text-transform: uppercase;
   letter-spacing: 0.5pt;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003321}}
 #block-islandora-solr-sort ul.islandora-solr-sort {
   border-top: 2px solid #009100;
   list-style: none outside none;
   margin: 0;
   padding: 10px 0 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003326}}
 #block-islandora-solr-sort ul.islandora-solr-sort li {
   font-size: 85%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003336}}
 .islandora-basic-image-object .islandora-basic-image-content-wrapper {
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003338}}
 .islandora-basic-image-object .islandora-basic-image-content-wrapper .islandora-basic-image-content {
   width: auto !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003342}}
 .islandora-basic-image-object .islandora-basic-image-metadata {
   width: 33%;
   float: left;
   clear: none;
   margin-left: 2em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003347}}
 .islandora-basic-image-object .islandora-basic-image-metadata fieldset {
   border: 0 none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003350}}
 .islandora-basic-image-object .islandora-basic-image-metadata .fieldset-wrapper {
   font-family: 'Ropa Sans',Arial;
   font-size: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003353}}
 .islandora-basic-image-object .islandora-basic-image-metadata .fieldset-wrapper dt {
   border-top: 1px dotted #707070;
   color: #6F6F6F;
@@ -2773,34 +2792,34 @@ dd.solr-grid-caption a:hover, dd.solr-grid-caption a.active {
   text-align: left;
   vertical-align: top;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003363}}
 .islandora-basic-image-object .islandora-basic-image-metadata .fieldset-wrapper dd {
   border-top: 1px dotted #707070;
   color: #222;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003367}}
 .islandora-basic-image-object .islandora-basic-image-metadata .fieldset-wrapper dd.first, .islandora-basic-image-object .islandora-basic-image-metadata .fieldset-wrapper dt.first {
   border: 0 none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003373}}
 fieldset.collapsible {
   border: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003379}}
 #islandora-bookmark-detailed-overview {
   background: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003382}}
 #islandora-bookmark-detailed-overview #islandora-bookmark-detailed-list fieldset {
   border: 0 none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003384}}
 #islandora-bookmark-detailed-overview #islandora-bookmark-detailed-list fieldset .fieldset-wrapper {
   border-top: 2px solid #009100;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003386}}
 #islandora-bookmark-detailed-overview #islandora-bookmark-detailed-list fieldset .fieldset-wrapper h3 {
   display: block;
   font-family: 'Ropa Sans',Arial;
@@ -2808,46 +2827,46 @@ fieldset.collapsible {
   font-weight: 400;
   margin-bottom: 0.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003393}}
 #islandora-bookmark-detailed-overview #islandora-bookmark-detailed-list fieldset .fieldset-wrapper label {
   text-transform: uppercase;
   color: #777;
   font-size: 67%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003398}}
 #islandora-bookmark-detailed-overview #islandora-bookmark-detailed-list fieldset .fieldset-wrapper .form-item-bookmarks-fieldset-export-options {
   margin-top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003402}}
 #islandora-bookmark-detailed-overview #islandora-bookmark-detailed-list fieldset table {
   width: 100%;
   margin-top: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003405}}
 #islandora-bookmark-detailed-overview #islandora-bookmark-detailed-list fieldset table tr {
   height: 3em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003407}}
 #islandora-bookmark-detailed-overview #islandora-bookmark-detailed-list fieldset table tr th {
   font-size: 67%;
   text-transform: uppercase;
   color: #777;
   text-shadow: 0 1px 0 #FFFFFF;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003403}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003413}}
 #islandora-bookmark-detailed-overview #islandora-bookmark-detailed-list fieldset table tr td {
   font-size: 90%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003405}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003415}}
 #islandora-bookmark-detailed-overview #islandora-bookmark-detailed-list fieldset table tr td a:link, #islandora-bookmark-detailed-overview #islandora-bookmark-detailed-list fieldset table tr td a:visited {
   color: #009100;
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003409}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003419}}
 #islandora-bookmark-detailed-overview #islandora-bookmark-detailed-list fieldset table tr td a:hover, #islandora-bookmark-detailed-overview #islandora-bookmark-detailed-list fieldset table tr td a.active {
   color: #00A600;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003414}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003424}}
 #islandora-bookmark-detailed-overview #islandora-bookmark-detailed-list fieldset table tr td.operations input {
   background: url("../images/icons/sprite.png") no-repeat scroll -77px -110px;
   color: #818181;
@@ -2865,61 +2884,61 @@ fieldset.collapsible {
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003431}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003441}}
 #islandora-bookmark-detailed-overview #islandora-bookmark-detailed-list fieldset table tr td.operations input:hover {
   opacity: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003438}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003448}}
 #islandora-bookmark-detailed-overview #islandora-bookmark-detailed-list legend {
   display: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003443}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003453}}
 #islandora-bookmark-detailed-overview #edit-bookmarks-users a.fieldset-title:link, #islandora-bookmark-detailed-overview #edit-bookmarks-users a.fieldset-title:visited {
   color: #009100;
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003447}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003457}}
 #islandora-bookmark-detailed-overview #edit-bookmarks-users a.fieldset-title:hover {
   color: #00A600;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003450}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003460}}
 #islandora-bookmark-detailed-overview #edit-bookmarks-users #edit-bookmarks-users-empty {
   margin: 0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003456}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003466}}
 #islandora-bookmark-detailed-form-manage {
   background: #fff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003458}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003468}}
 #islandora-bookmark-detailed-form-manage a.fieldset-title:link, #islandora-bookmark-detailed-form-manage a.fieldset-title:visited {
   color: #009100;
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003462}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003472}}
 #islandora-bookmark-detailed-form-manage a.fieldset-title:hover {
   color: #00A600;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003465}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003475}}
 #islandora-bookmark-detailed-form-manage label {
   color: #777777;
   font-size: 67%;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003470}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003480}}
 #islandora-bookmark-detailed-form-manage .form-item-bookmarks-management-listname {
   margin: 0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003476}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003486}}
 #islandora-bookmark-overview table {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003478}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003488}}
 #islandora-bookmark-overview table tr {
   height: 3em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003480}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003490}}
 #islandora-bookmark-overview table tr th {
   font-size: 67%;
   text-transform: uppercase;
@@ -2927,22 +2946,22 @@ fieldset.collapsible {
   text-shadow: 0 1px 0 #FFFFFF;
   border-bottom: 2px solid #009100;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003488}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003498}}
 #islandora-bookmark-overview table tr td a:link, #islandora-bookmark-overview table tr td a:visited {
   color: #009100;
   text-decoration: underline;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003492}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003502}}
 #islandora-bookmark-overview table tr td a:hover, #islandora-bookmark-overview table tr td a.active {
   color: #00A600;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003500}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003510}}
 #block-islandora-bookmark-islandora-bookmark {
   float: left;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003504}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/drupal7\/sites\/all\/themes\/dtu-theme\/sass\/components\/_islandora\.scss}line{font-family:\00003514}}
 #islandora-bookmark-rss-format {
   display: none;
 }
