@@ -31,6 +31,16 @@ a:hover, a:active {
     margin-bottom: 5px;
 }
 
+.logged-in {
+    #page {
+        margin-top: 3.4em;
+        #navigation {
+            position: relative;
+            left: 10px;
+        }
+    }
+}
+
 #main {
     background: #F3F3F3;
     padding-bottom: 0.7em;
